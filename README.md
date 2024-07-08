@@ -21,7 +21,5 @@
 # [🌏 SukbeomH의 블로그로 가기!. 🚀](https://veritasgarage.tistory.com/)
 ***
 
-## Baeckjoon
-[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=brent93)](https://solved.ac/profile/brent93)
 
 
