@@ -1,3 +1,4 @@
+
 <!-- Header -->
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=360&text=SukbeomH&fontSize=80&fontAlign=50&fontAlignY=50&desc=%EA%B0%9C%EB%B0%9C%EC%83%88%EB%B0%9C+%EA%B0%9C%EB%B0%9C+%EA%B8%B0%EB%A1%9D&descSize=15&descAlign=50&descAlignY=60)
 
@@ -39,4 +40,4 @@
 
 </div>
 
-
+<a href=https://veritasgarage.tistory.com/225>[우리FISA] 1일차</a></br><a href=https://veritasgarage.tistory.com/224>[혼공컴운] CS기초, 입문</a></br><a href=https://veritasgarage.tistory.com/223>[BoostCourse] 확률론</a></br><a href=https://veritasgarage.tistory.com/222>[3Blue1Brown] Attention</a></br><a href=https://veritasgarage.tistory.com/221>[3Blue1Brown] Generative Pre-trained Transformer</a></br>
