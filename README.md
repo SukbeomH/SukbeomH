@@ -1,11 +1,13 @@
 <!-- Header -->
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=360&text=SukbeomH&fontSize=80&fontAlign=50&fontAlignY=50&desc=%EA%B0%9C%EB%B0%9C%EC%83%88%EB%B0%9C+%EA%B0%9C%EB%B0%9C+%EA%B8%B0%EB%A1%9D&descSize=15&descAlign=50&descAlignY=60)
 
-### 🎠 Visitors
-![hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSukbeomH&edge_flat=false&title=count)
+<div align="center">
 
-### 🚌 Top Langs
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH&layout=compact)
+![SukbeomH's GitHub stats](https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH)
+
+</div>
 
 ***
 # 🍊 SukbeomH의 깃허브 프로필입니다. 👋
@@ -17,9 +19,8 @@
 ### **🛠️ Infra and Tools**
 ![Docker](https://img.shields.io/badge/docker-2496ED.svg?&style=for-the-badge&logo=docker&logoColor=white) ![Proxmox](https://img.shields.io/badge/proxmox-E57000.svg?&style=for-the-badge&logo=proxmox&logoColor=white) ![Debian](https://img.shields.io/badge/debian-A81D33.svg?&style=for-the-badge&logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/ubuntu-E95420.svg?&style=for-the-badge&logo=ubuntu&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/githubactions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white) 
 
-***
+<div align="center">
 # [🌏 SukbeomH의 블로그로 가기!. 🚀](https://veritasgarage.tistory.com/)
-***
-
+</div>
 
 
