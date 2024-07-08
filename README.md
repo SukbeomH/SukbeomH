@@ -37,6 +37,8 @@
   
 # [🌏 SukbeomH의 블로그로 가기!. 🚀](https://veritasgarage.tistory.com/)
 
+[![Tistory's Badge](https://github-readme-tistory-card.vercel.app/api/badge?name={insert_name})](https://github.com/loosie/github-readme-tistory-card)
+
 </div>
 
 
