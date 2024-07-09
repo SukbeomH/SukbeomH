@@ -67,7 +67,8 @@ const parser = new Parser({
         console.log(`${i + 1}번째 게시물`);
         console.log(`추가될 제목: ${title}`);
         console.log(`추가될 링크: ${link}`);
-        text += `#### <a href=${link}>${title}</a></br>`;
+        // text += `#### <a href=${link}>${title}</a></br>`;
+        text += `#### ![📝](${link}) [${title}](${link})</br>`;
     }
     // 최종적으로 블로그 게시물 목록을 닫음
     text += '</div>';
