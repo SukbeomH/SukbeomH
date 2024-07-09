@@ -48,6 +48,7 @@ let text = `
 </div>
 
 <div align="center">
+
 `;
 
 // rss-parser 생성
@@ -71,7 +72,8 @@ const parser = new Parser({
         text += `#### ![📝](${link}) [${title}](${link})</br>`;
     }
     // 최종적으로 블로그 게시물 목록을 닫음
-    text += '</div>';
+    text += '\
+        </div> ';
     // README.md 파일 작성
     writeFileSync('README.md', text, 'utf8', (e) => {
         console.log(e)
