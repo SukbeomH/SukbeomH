@@ -2,11 +2,11 @@
 <!-- Header -->
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=360&text=SukbeomH&fontSize=80&fontAlign=50&fontAlignY=50&desc=%EA%B0%9C%EB%B0%9C%EC%83%88%EB%B0%9C+%EA%B0%9C%EB%B0%9C+%EA%B8%B0%EB%A1%9D&descSize=15&descAlign=50&descAlignY=60)
 
-***
-# 🍊 SukbeomH의 깃허브 프로필입니다. 👋
-***
-
 <div align="center">
+
+***
+# 🍊 SukbeomH의 깃허브 프로필입니다 👋
+***
 
 ![SukbeomH's GitHub stats](https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent)
 
@@ -42,7 +42,7 @@
 </div>
 <div align="center">
   
-# [🌏 SukbeomH의 블로그로 가기!. 🚀](https://veritasgarage.tistory.com/)
+# [🌏 SukbeomH의 블로그로 가기! 🚀](https://veritasgarage.tistory.com/)
 
 </div>
 
