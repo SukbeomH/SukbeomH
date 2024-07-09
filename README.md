@@ -40,4 +40,4 @@
 
 </div>
 
-<a href=https://veritasgarage.tistory.com/225>[우리FISA] 1일차</a></br><a href=https://veritasgarage.tistory.com/224>[혼공컴운] CS기초, 입문</a></br><a href=https://veritasgarage.tistory.com/223>[BoostCourse] 확률론</a></br><a href=https://veritasgarage.tistory.com/222>[3Blue1Brown] Attention</a></br><a href=https://veritasgarage.tistory.com/221>[3Blue1Brown] Generative Pre-trained Transformer</a></br>
+<a href=https://veritasgarage.tistory.com/226>[우리FISA] 2일차 Python basics with Colab</a></br><a href=https://veritasgarage.tistory.com/225>[우리FISA] 1일차 Orientation</a></br><a href=https://veritasgarage.tistory.com/224>[혼공컴운] CS기초, 입문</a></br><a href=https://veritasgarage.tistory.com/223>[BoostCourse] 확률론</a></br><a href=https://veritasgarage.tistory.com/222>[3Blue1Brown] Attention</a></br>
