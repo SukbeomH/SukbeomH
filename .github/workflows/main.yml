@@ -7,6 +7,8 @@ on:
 # 6시간에 한번씩 아래 스크립트를 실행한다.
   schedule:
     - cron: "0 */6 * * *"
+  workflow_dispatch: {} # 자동 시간 외 워크플로우 수동으로 트리거하는 기능 추가
+  
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
