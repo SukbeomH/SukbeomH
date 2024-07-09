@@ -39,8 +39,7 @@
   
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH)
 
-</div>
-<div align="center">
+---
   
 # [🌏 SukbeomH의 블로그로 가기! 🚀](https://veritasgarage.tistory.com/)
 
