@@ -46,6 +46,7 @@
 </div>
 
 
+#### [📝 [우리FISA] 2일차 Python Methods](https://veritasgarage.tistory.com/227)</br>
 #### [📝 [우리FISA] 2일차 Python Concepts](https://veritasgarage.tistory.com/228)</br>
 #### [📝 [CS50] Memory Stack, Heap... by swap](https://veritasgarage.tistory.com/229)</br>
 #### [📝 [우리FISA] 2일차 Python basics with Colab](https://veritasgarage.tistory.com/226)</br>
@@ -55,4 +56,3 @@
 #### [📝 [3Blue1Brown] Attention](https://veritasgarage.tistory.com/222)</br>
 #### [📝 [3Blue1Brown] Generative Pre-trained Transformer](https://veritasgarage.tistory.com/221)</br>
 #### [📝 [3Blue1Brown] Backpropagation 역전파](https://veritasgarage.tistory.com/220)</br>
-#### [📝 [3Blue1Brown] DeepLearning](https://veritasgarage.tistory.com/219)</br>
