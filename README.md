@@ -46,6 +46,8 @@
 </div>
 
 
+#### [📝 [우리FISA] 4일차 Function](https://veritasgarage.tistory.com/233)</br>
+#### [📝 [Paper] 2003.11755, A Survey of Deep Learning for Scientific Discovery (1)](https://veritasgarage.tistory.com/232)</br>
 #### [📝 [우리FISA] 4일차 RegExp](https://veritasgarage.tistory.com/231)</br>
 #### [📝 [우리FISA] 3일차 Python 제어문](https://veritasgarage.tistory.com/230)</br>
 #### [📝 [우리FISA] 2일차 Python Methods](https://veritasgarage.tistory.com/227)</br>
@@ -54,5 +56,3 @@
 #### [📝 [우리FISA] 2일차 Python basics with Colab](https://veritasgarage.tistory.com/226)</br>
 #### [📝 [우리FISA] 1일차 Orientation](https://veritasgarage.tistory.com/225)</br>
 #### [📝 [혼공컴운] CS기초, 입문](https://veritasgarage.tistory.com/224)</br>
-#### [📝 [BoostCourse] 확률론](https://veritasgarage.tistory.com/223)</br>
-#### [📝 [3Blue1Brown] Attention](https://veritasgarage.tistory.com/222)</br>
