@@ -46,6 +46,7 @@
 </div>
 
 
+#### [📝 [우리FISA] 4일차 RegExp](https://veritasgarage.tistory.com/231)</br>
 #### [📝 [우리FISA] 3일차 Python 제어문](https://veritasgarage.tistory.com/230)</br>
 #### [📝 [우리FISA] 2일차 Python Methods](https://veritasgarage.tistory.com/227)</br>
 #### [📝 [우리FISA] 2일차 Python Concepts](https://veritasgarage.tistory.com/228)</br>
@@ -55,4 +56,3 @@
 #### [📝 [혼공컴운] CS기초, 입문](https://veritasgarage.tistory.com/224)</br>
 #### [📝 [BoostCourse] 확률론](https://veritasgarage.tistory.com/223)</br>
 #### [📝 [3Blue1Brown] Attention](https://veritasgarage.tistory.com/222)</br>
-#### [📝 [3Blue1Brown] Generative Pre-trained Transformer](https://veritasgarage.tistory.com/221)</br>
