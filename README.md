@@ -46,6 +46,7 @@
 </div>
 
 
+#### [📝 [우리FISA] 5일차 Functions continue.....](https://veritasgarage.tistory.com/234)</br>
 #### [📝 [우리FISA] 4일차 Function](https://veritasgarage.tistory.com/233)</br>
 #### [📝 [Paper] 2003.11755, A Survey of Deep Learning for Scientific Discovery (1)](https://veritasgarage.tistory.com/232)</br>
 #### [📝 [우리FISA] 4일차 RegExp](https://veritasgarage.tistory.com/231)</br>
@@ -55,4 +56,3 @@
 #### [📝 [CS50] Memory Stack, Heap... by swap](https://veritasgarage.tistory.com/229)</br>
 #### [📝 [우리FISA] 2일차 Python basics with Colab](https://veritasgarage.tistory.com/226)</br>
 #### [📝 [우리FISA] 1일차 Orientation](https://veritasgarage.tistory.com/225)</br>
-#### [📝 [혼공컴운] CS기초, 입문](https://veritasgarage.tistory.com/224)</br>
