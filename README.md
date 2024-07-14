@@ -46,6 +46,7 @@
 </div>
 
 
+#### [📝 [BoostCouse] NumPy](https://veritasgarage.tistory.com/236)</br>
 #### [📝 [우리FISA :: AI엔지니어링] 1주차 회고](https://veritasgarage.tistory.com/235)</br>
 #### [📝 [우리FISA] 5일차 Functions continue.....](https://veritasgarage.tistory.com/234)</br>
 #### [📝 [우리FISA] 4일차 Function](https://veritasgarage.tistory.com/233)</br>
@@ -55,4 +56,3 @@
 #### [📝 [우리FISA] 2일차 Python Methods](https://veritasgarage.tistory.com/227)</br>
 #### [📝 [우리FISA] 2일차 Python Concepts](https://veritasgarage.tistory.com/228)</br>
 #### [📝 [CS50] Memory Stack, Heap... by swap](https://veritasgarage.tistory.com/229)</br>
-#### [📝 [우리FISA] 2일차 Python basics with Colab](https://veritasgarage.tistory.com/226)</br>
