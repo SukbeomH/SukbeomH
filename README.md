@@ -46,6 +46,7 @@
 </div>
 
 
+#### [📝 [우리FISA] Pandas method and functions](https://veritasgarage.tistory.com/243)</br>
 #### [📝 [우리FISA] NumPy](https://veritasgarage.tistory.com/242)</br>
 #### [📝 [우리FISA] Python Class](https://veritasgarage.tistory.com/241)</br>
 #### [📝 [우리FISA] OOP](https://veritasgarage.tistory.com/240)</br>
@@ -55,4 +56,3 @@
 #### [📝 [BoostCouse] NumPy](https://veritasgarage.tistory.com/236)</br>
 #### [📝 [우리FISA :: AI엔지니어링] 1주차 회고](https://veritasgarage.tistory.com/235)</br>
 #### [📝 [우리FISA] 5일차 Functions continue.....](https://veritasgarage.tistory.com/234)</br>
-#### [📝 [우리FISA] 4일차 Function](https://veritasgarage.tistory.com/233)</br>
