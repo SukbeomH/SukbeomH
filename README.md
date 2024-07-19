@@ -46,13 +46,13 @@
 </div>
 
 
+#### [📝 [우리FISA] 2주차 회고 Python Libraries](https://veritasgarage.tistory.com/247)</br>
+#### [📝 [우리FISA] Data Visualization](https://veritasgarage.tistory.com/246)</br>
+#### [📝 [우리FISA] EDA(Exploratory Data Analysis)](https://veritasgarage.tistory.com/245)</br>
+#### [📝 [@mohsin.shaikh324] Matplotlib vs. Seaborn vs. Plotly](https://veritasgarage.tistory.com/244)</br>
 #### [📝 [우리FISA] Pandas method and functions](https://veritasgarage.tistory.com/243)</br>
 #### [📝 [우리FISA] NumPy](https://veritasgarage.tistory.com/242)</br>
 #### [📝 [우리FISA] Python Class](https://veritasgarage.tistory.com/241)</br>
 #### [📝 [우리FISA] OOP](https://veritasgarage.tistory.com/240)</br>
 #### [📝 [우리FISA] Standard Input/Output, stdio](https://veritasgarage.tistory.com/239)</br>
 #### [📝 [우리FISA] Exception Handling](https://veritasgarage.tistory.com/238)</br>
-#### [📝 [우리FISA] Python Modules, Library, Package](https://veritasgarage.tistory.com/237)</br>
-#### [📝 [BoostCouse] NumPy](https://veritasgarage.tistory.com/236)</br>
-#### [📝 [우리FISA :: AI엔지니어링] 1주차 회고](https://veritasgarage.tistory.com/235)</br>
-#### [📝 [우리FISA] 5일차 Functions continue.....](https://veritasgarage.tistory.com/234)</br>
