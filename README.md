@@ -46,6 +46,7 @@
 </div>
 
 
+#### [📝 [Data Visualization] Libraries](https://veritasgarage.tistory.com/248)</br>
 #### [📝 [우리FISA] 2주차 회고 Python Libraries](https://veritasgarage.tistory.com/247)</br>
 #### [📝 [우리FISA] Data Visualization](https://veritasgarage.tistory.com/246)</br>
 #### [📝 [우리FISA] EDA(Exploratory Data Analysis)](https://veritasgarage.tistory.com/245)</br>
@@ -55,4 +56,3 @@
 #### [📝 [우리FISA] Python Class](https://veritasgarage.tistory.com/241)</br>
 #### [📝 [우리FISA] OOP](https://veritasgarage.tistory.com/240)</br>
 #### [📝 [우리FISA] Standard Input/Output, stdio](https://veritasgarage.tistory.com/239)</br>
-#### [📝 [우리FISA] Exception Handling](https://veritasgarage.tistory.com/238)</br>
