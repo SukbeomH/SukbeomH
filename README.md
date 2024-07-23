@@ -46,6 +46,8 @@
 </div>
 
 
+#### [📝 [Udemy] SQLD 엔티티와 정규화](https://veritasgarage.tistory.com/250)</br>
+#### [📝 [Streamlit] Python을 이용한 간단한 배포](https://veritasgarage.tistory.com/249)</br>
 #### [📝 [Data Visualization] Libraries](https://veritasgarage.tistory.com/248)</br>
 #### [📝 [우리FISA] 2주차 회고 Python Libraries](https://veritasgarage.tistory.com/247)</br>
 #### [📝 [우리FISA] Data Visualization](https://veritasgarage.tistory.com/246)</br>
@@ -54,5 +56,3 @@
 #### [📝 [우리FISA] Pandas method and functions](https://veritasgarage.tistory.com/243)</br>
 #### [📝 [우리FISA] NumPy](https://veritasgarage.tistory.com/242)</br>
 #### [📝 [우리FISA] Python Class](https://veritasgarage.tistory.com/241)</br>
-#### [📝 [우리FISA] OOP](https://veritasgarage.tistory.com/240)</br>
-#### [📝 [우리FISA] Standard Input/Output, stdio](https://veritasgarage.tistory.com/239)</br>
