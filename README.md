@@ -46,6 +46,8 @@
 </div>
 
 
+#### [📝 [우리FISA] SQL Backgrounds](https://veritasgarage.tistory.com/252)</br>
+#### [📝 [우리FISA] 데이터 관리](https://veritasgarage.tistory.com/251)</br>
 #### [📝 [Udemy] SQLD 엔티티와 정규화](https://veritasgarage.tistory.com/250)</br>
 #### [📝 [Streamlit] Python을 이용한 간단한 배포](https://veritasgarage.tistory.com/249)</br>
 #### [📝 [Data Visualization] Libraries](https://veritasgarage.tistory.com/248)</br>
@@ -54,5 +56,3 @@
 #### [📝 [우리FISA] EDA(Exploratory Data Analysis)](https://veritasgarage.tistory.com/245)</br>
 #### [📝 [@mohsin.shaikh324] Matplotlib vs. Seaborn vs. Plotly](https://veritasgarage.tistory.com/244)</br>
 #### [📝 [우리FISA] Pandas method and functions](https://veritasgarage.tistory.com/243)</br>
-#### [📝 [우리FISA] NumPy](https://veritasgarage.tistory.com/242)</br>
-#### [📝 [우리FISA] Python Class](https://veritasgarage.tistory.com/241)</br>
