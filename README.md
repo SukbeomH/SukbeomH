@@ -8,8 +8,9 @@
 # 🍊 SukbeomH의 깃허브 프로필입니다 👋
 ***
 
-![SukbeomH's GitHub stats](https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent)
-
+<div style="display: flex;">
+    <img src="https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent" alt="SukbeomH's GitHub stats" style="height: 230px;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH" alt="Top Langs" style="height: 230px;">
 </div>
 
 <!-- Body -->
@@ -35,13 +36,11 @@
 ### **🛠️ Infra and Tools**
 ![Docker](https://img.shields.io/badge/docker-2496ED.svg?&style=for-the-badge&logo=docker&logoColor=white) ![Proxmox](https://img.shields.io/badge/proxmox-E57000.svg?&style=for-the-badge&logo=proxmox&logoColor=white) ![Debian](https://img.shields.io/badge/debian-A81D33.svg?&style=for-the-badge&logo=debian&logoColor=white) ![Ubuntu](https://img.shields.io/badge/ubuntu-E95420.svg?&style=for-the-badge&logo=ubuntu&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/githubactions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white) 
 
+---
+
 <div align="center">
   
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH)
-
----
-  
-# [🌏 SukbeomH의 블로그로 가기! 🚀](https://veritasgarage.tistory.com/)
+# 🌏 SukbeomH의 블로그로 가기! 🚀
 
 </div>
 
