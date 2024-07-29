@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [SQLD] DATA MODELING](https://veritasgarage.tistory.com/256)</br>
+#### [📝 [우리FISA] Database 개체](https://veritasgarage.tistory.com/255)</br>
 #### [📝 [우리FISA] SQL, sub queries and so on..](https://veritasgarage.tistory.com/254)</br>
 #### [📝 [우리FISA] SQL Query :: Functions &amp;&amp; JOIN](https://veritasgarage.tistory.com/253)</br>
 #### [📝 [우리FISA] SQL Backgrounds](https://veritasgarage.tistory.com/252)</br>
@@ -53,5 +55,3 @@
 #### [📝 [Streamlit] Python을 이용한 간단한 배포](https://veritasgarage.tistory.com/249)</br>
 #### [📝 [Data Visualization] Libraries](https://veritasgarage.tistory.com/248)</br>
 #### [📝 [우리FISA] 2주차 회고 Python Libraries](https://veritasgarage.tistory.com/247)</br>
-#### [📝 [우리FISA] Data Visualization](https://veritasgarage.tistory.com/246)</br>
-#### [📝 [우리FISA] EDA(Exploratory Data Analysis)](https://veritasgarage.tistory.com/245)</br>
