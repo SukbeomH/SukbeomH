@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [SQLD] 성능 데이터 모델링](https://veritasgarage.tistory.com/258)</br>
+#### [📝 [우리FISA] Delimiter, Trigger, Partition](https://veritasgarage.tistory.com/257)</br>
 #### [📝 [SQLD] DATA MODELING](https://veritasgarage.tistory.com/256)</br>
 #### [📝 [우리FISA] Database 개체](https://veritasgarage.tistory.com/255)</br>
 #### [📝 [우리FISA] SQL, sub queries and so on..](https://veritasgarage.tistory.com/254)</br>
@@ -53,5 +55,3 @@
 #### [📝 [우리FISA] 데이터 관리](https://veritasgarage.tistory.com/251)</br>
 #### [📝 [Udemy] SQLD 엔티티와 정규화](https://veritasgarage.tistory.com/250)</br>
 #### [📝 [Streamlit] Python을 이용한 간단한 배포](https://veritasgarage.tistory.com/249)</br>
-#### [📝 [Data Visualization] Libraries](https://veritasgarage.tistory.com/248)</br>
-#### [📝 [우리FISA] 2주차 회고 Python Libraries](https://veritasgarage.tistory.com/247)</br>
