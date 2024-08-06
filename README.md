@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [Local_Copilot] 로컬에서 작동하는 코파일럿 기능](https://veritasgarage.tistory.com/261)</br>
+#### [📝 [Docker] Multi Stage Build](https://veritasgarage.tistory.com/260)</br>
 #### [📝 [Docker] Container](https://veritasgarage.tistory.com/259)</br>
 #### [📝 [SQLD] 성능 데이터 모델링](https://veritasgarage.tistory.com/258)</br>
 #### [📝 [우리FISA] Delimiter, Trigger, Partition](https://veritasgarage.tistory.com/257)</br>
@@ -53,5 +55,3 @@
 #### [📝 [우리FISA] SQL, sub queries and so on..](https://veritasgarage.tistory.com/254)</br>
 #### [📝 [우리FISA] SQL Query :: Functions &amp;&amp; JOIN](https://veritasgarage.tistory.com/253)</br>
 #### [📝 [우리FISA] SQL Backgrounds](https://veritasgarage.tistory.com/252)</br>
-#### [📝 [우리FISA] 데이터 관리](https://veritasgarage.tistory.com/251)</br>
-#### [📝 [Udemy] SQLD 엔티티와 정규화](https://veritasgarage.tistory.com/250)</br>
