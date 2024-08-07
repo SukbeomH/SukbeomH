@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [Linux] 대충 잊어먹기 쉬운 것들](https://veritasgarage.tistory.com/263)</br>
+#### [📝 [Docker-Compose] Advanced Options](https://veritasgarage.tistory.com/262)</br>
 #### [📝 [Local_Copilot] 로컬에서 작동하는 코파일럿 기능](https://veritasgarage.tistory.com/261)</br>
 #### [📝 [Docker] Multi Stage Build](https://veritasgarage.tistory.com/260)</br>
 #### [📝 [Docker] Container](https://veritasgarage.tistory.com/259)</br>
@@ -53,5 +55,3 @@
 #### [📝 [SQLD] DATA MODELING](https://veritasgarage.tistory.com/256)</br>
 #### [📝 [우리FISA] Database 개체](https://veritasgarage.tistory.com/255)</br>
 #### [📝 [우리FISA] SQL, sub queries and so on..](https://veritasgarage.tistory.com/254)</br>
-#### [📝 [우리FISA] SQL Query :: Functions &amp;&amp; JOIN](https://veritasgarage.tistory.com/253)</br>
-#### [📝 [우리FISA] SQL Backgrounds](https://veritasgarage.tistory.com/252)</br>
