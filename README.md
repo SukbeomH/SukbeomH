@@ -45,13 +45,13 @@
 </div>
 
 
+#### [📝 [Linux_Shell] 존재 여부만 알아두면 나중에 쓸모있을 정보](https://veritasgarage.tistory.com/264)</br>
 #### [📝 [Linux] 대충 잊어먹기 쉬운 것들](https://veritasgarage.tistory.com/263)</br>
 #### [📝 [Docker-Compose] Advanced Options](https://veritasgarage.tistory.com/262)</br>
-#### [📝 [Local_Copilot] 로컬에서 작동하는 코파일럿 기능](https://veritasgarage.tistory.com/261)</br>
+#### [📝 [Continue] 로컬에서 작동하는 AI](https://veritasgarage.tistory.com/261)</br>
 #### [📝 [Docker] Multi Stage Build](https://veritasgarage.tistory.com/260)</br>
 #### [📝 [Docker] Container](https://veritasgarage.tistory.com/259)</br>
 #### [📝 [SQLD] 성능 데이터 모델링](https://veritasgarage.tistory.com/258)</br>
 #### [📝 [우리FISA] Delimiter, Trigger, Partition](https://veritasgarage.tistory.com/257)</br>
 #### [📝 [SQLD] DATA MODELING](https://veritasgarage.tistory.com/256)</br>
 #### [📝 [우리FISA] Database 개체](https://veritasgarage.tistory.com/255)</br>
-#### [📝 [우리FISA] SQL, sub queries and so on..](https://veritasgarage.tistory.com/254)</br>
