@@ -45,6 +45,7 @@
 </div>
 
 
+#### [📝 [Linux] 리눅스 권한](https://veritasgarage.tistory.com/265)</br>
 #### [📝 [Linux_Shell] 존재 여부만 알아두면 나중에 쓸모있을 정보](https://veritasgarage.tistory.com/264)</br>
 #### [📝 [Linux] 대충 잊어먹기 쉬운 것들](https://veritasgarage.tistory.com/263)</br>
 #### [📝 [Docker-Compose] Advanced Options](https://veritasgarage.tistory.com/262)</br>
@@ -54,4 +55,3 @@
 #### [📝 [SQLD] 성능 데이터 모델링](https://veritasgarage.tistory.com/258)</br>
 #### [📝 [우리FISA] Delimiter, Trigger, Partition](https://veritasgarage.tistory.com/257)</br>
 #### [📝 [SQLD] DATA MODELING](https://veritasgarage.tistory.com/256)</br>
-#### [📝 [우리FISA] Database 개체](https://veritasgarage.tistory.com/255)</br>
