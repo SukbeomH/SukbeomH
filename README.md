@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [LLM_AI] &quot;Bleeding Edge&quot; Prompt Engineering](https://veritasgarage.tistory.com/272)</br>
+#### [📝 [Cloud Platform] 금융권 트렌드](https://veritasgarage.tistory.com/269)</br>
 #### [📝 [RAG] Elastic as Vector Store](https://veritasgarage.tistory.com/270)</br>
 #### [📝 [Istio] 작동 흐름과 기능](https://veritasgarage.tistory.com/268)</br>
 #### [📝 [Istio] Make 'Kubernetes's Network' Great Again!](https://veritasgarage.tistory.com/267)</br>
@@ -53,5 +55,3 @@
 #### [📝 [Linux_Shell] 존재 여부만 알아두면 나중에 쓸모있을 정보](https://veritasgarage.tistory.com/264)</br>
 #### [📝 [Linux] 대충 잊어먹기 쉬운 것들](https://veritasgarage.tistory.com/263)</br>
 #### [📝 [Docker-Compose] Advanced Options](https://veritasgarage.tistory.com/262)</br>
-#### [📝 [Continue] 로컬에서 작동하는 AI](https://veritasgarage.tistory.com/261)</br>
-#### [📝 [Docker] Multi Stage Build](https://veritasgarage.tistory.com/260)</br>
