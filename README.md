@@ -45,6 +45,7 @@
 </div>
 
 
+#### [📝 [ELK] Logstash](https://veritasgarage.tistory.com/275)</br>
 #### [📝 [Elastic] QueryDSL](https://veritasgarage.tistory.com/274)</br>
 #### [📝 [ELK] Elastic Search](https://veritasgarage.tistory.com/273)</br>
 #### [📝 [RAG] LangChain :: LLM 도화지](https://veritasgarage.tistory.com/271)</br>
@@ -54,4 +55,3 @@
 #### [📝 [Istio] 작동 흐름과 기능](https://veritasgarage.tistory.com/268)</br>
 #### [📝 [Istio] Make 'Kubernetes's Network' Great Again!](https://veritasgarage.tistory.com/267)</br>
 #### [📝 [K8s] 컨테이너 오케스트레이션](https://veritasgarage.tistory.com/266)</br>
-#### [📝 [Linux] 리눅스 권한](https://veritasgarage.tistory.com/265)</br>
