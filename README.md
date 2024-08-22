@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [AI번역] SIMD 명령어로 벡터 검색 가속화](https://veritasgarage.tistory.com/277)</br>
+#### [📝 [AI번역] 엘라스틱서치의 벡터 검색: 설계 이면의 논리](https://veritasgarage.tistory.com/276)</br>
 #### [📝 [ELK] Logstash](https://veritasgarage.tistory.com/275)</br>
 #### [📝 [Elastic] QueryDSL](https://veritasgarage.tistory.com/274)</br>
 #### [📝 [ELK] Elastic Search](https://veritasgarage.tistory.com/273)</br>
@@ -53,5 +55,3 @@
 #### [📝 [Cloud Platform] 금융권 트렌드](https://veritasgarage.tistory.com/269)</br>
 #### [📝 [RAG] Elastic as Vector Store](https://veritasgarage.tistory.com/270)</br>
 #### [📝 [Istio] 작동 흐름과 기능](https://veritasgarage.tistory.com/268)</br>
-#### [📝 [Istio] Make 'Kubernetes's Network' Great Again!](https://veritasgarage.tistory.com/267)</br>
-#### [📝 [K8s] 컨테이너 오케스트레이션](https://veritasgarage.tistory.com/266)</br>
