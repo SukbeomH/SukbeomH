@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [RAG] RAG와 ELK](https://veritasgarage.tistory.com/279)</br>
+#### [📝 [Python] Django Basics](https://veritasgarage.tistory.com/278)</br>
 #### [📝 [AI번역] SIMD 명령어로 벡터 검색 가속화](https://veritasgarage.tistory.com/277)</br>
 #### [📝 [AI번역] 엘라스틱서치의 벡터 검색: 설계 이면의 논리](https://veritasgarage.tistory.com/276)</br>
 #### [📝 [ELK] Logstash](https://veritasgarage.tistory.com/275)</br>
@@ -53,5 +55,3 @@
 #### [📝 [RAG] LangChain :: LLM 도화지](https://veritasgarage.tistory.com/271)</br>
 #### [📝 [LLM_AI] &quot;Bleeding Edge&quot; Prompt Engineering](https://veritasgarage.tistory.com/272)</br>
 #### [📝 [Cloud Platform] 금융권 트렌드](https://veritasgarage.tistory.com/269)</br>
-#### [📝 [RAG] Elastic as Vector Store](https://veritasgarage.tistory.com/270)</br>
-#### [📝 [Istio] 작동 흐름과 기능](https://veritasgarage.tistory.com/268)</br>
