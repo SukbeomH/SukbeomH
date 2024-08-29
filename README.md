@@ -45,6 +45,7 @@
 </div>
 
 
+#### [📝 [WEB_HTTP] Cookie와 Session](https://veritasgarage.tistory.com/280)</br>
 #### [📝 [RAG] RAG와 ELK](https://veritasgarage.tistory.com/279)</br>
 #### [📝 [Python] Django Basics](https://veritasgarage.tistory.com/278)</br>
 #### [📝 [AI번역] SIMD 명령어로 벡터 검색 가속화](https://veritasgarage.tistory.com/277)</br>
@@ -54,4 +55,3 @@
 #### [📝 [ELK] Elastic Search](https://veritasgarage.tistory.com/273)</br>
 #### [📝 [RAG] LangChain :: LLM 도화지](https://veritasgarage.tistory.com/271)</br>
 #### [📝 [LLM_AI] &quot;Bleeding Edge&quot; Prompt Engineering](https://veritasgarage.tistory.com/272)</br>
-#### [📝 [Cloud Platform] 금융권 트렌드](https://veritasgarage.tistory.com/269)</br>
