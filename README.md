@@ -45,6 +45,8 @@
 </div>
 
 
+#### [📝 [ML] 통계 기초 :: 추론 통계](https://veritasgarage.tistory.com/282)</br>
+#### [📝 [ML] 통계 개념 기초 :: 기술통계](https://veritasgarage.tistory.com/281)</br>
 #### [📝 [WEB_HTTP] Cookie와 Session](https://veritasgarage.tistory.com/280)</br>
 #### [📝 [RAG] RAG와 ELK](https://veritasgarage.tistory.com/279)</br>
 #### [📝 [Python] Django Basics](https://veritasgarage.tistory.com/278)</br>
@@ -53,5 +55,3 @@
 #### [📝 [ELK] Logstash](https://veritasgarage.tistory.com/275)</br>
 #### [📝 [Elastic] QueryDSL](https://veritasgarage.tistory.com/274)</br>
 #### [📝 [ELK] Elastic Search](https://veritasgarage.tistory.com/273)</br>
-#### [📝 [RAG] LangChain :: LLM 도화지](https://veritasgarage.tistory.com/271)</br>
-#### [📝 [LLM_AI] &quot;Bleeding Edge&quot; Prompt Engineering](https://veritasgarage.tistory.com/272)</br>
