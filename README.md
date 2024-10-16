@@ -16,6 +16,7 @@
 ![NestJS](https://img.shields.io/badge/nestjs-E0234E.svg?&style=for-the-badge&logo=nestjs&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/mariadb-003545.svg?&style=for-the-badge&logo=mariadb&logoColor=white)
 ![Electron](https://img.shields.io/badge/electron-47848F.svg?&style=for-the-badge&logo=electron&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%234479A1?style=for-the-badge&logo=mysql&logoColor=ffffff)
 
 ### **🛠️ Infra and Tools**
 ![Docker](https://img.shields.io/badge/docker-2496ED.svg?&style=for-the-badge&logo=docker&logoColor=white)
@@ -23,6 +24,9 @@
 ![Debian](https://img.shields.io/badge/debian-A81D33.svg?&style=for-the-badge&logo=debian&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/ubuntu-E95420.svg?&style=for-the-badge&logo=ubuntu&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/githubactions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
+![Amazon Web Services](https://img.shields.io/badge/AmazonWebServices-%23FF9900?style=for-the-badge&logo=amazonwebservices)
+![GoogleCloudPlatform](https://img.shields.io/badge/GoogleCloudPlatform-%234285F4?style=for-the-badge&logo=google&logoColor=%23EA4335)
+
 
 ## ⚒️👷 **Now I'm Diggin**
 ![python](https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white)
@@ -33,8 +37,6 @@
 ![MLflow](https://img.shields.io/badge/mlflow-0194E2.svg?&style=for-the-badge&logo=mlflow&logoColor=white) 
 ![Apache Kafka](https://img.shields.io/badge/apachekafka-231F20.svg?&style=for-the-badge&logo=apachekafka&logoColor=white) 
 ![Spring](https://img.shields.io/badge/spring-6DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white) 
-
----
 
 ![story](https://capsule-render.vercel.app/api?type=venom&height=100&color=timeGradient&text=Story&section=header&reversal=false&fontAlignY=55&descAlignY=80&descSize=25&fontColor=000000&stroke=ffffff&strokeWidth=2)
 
