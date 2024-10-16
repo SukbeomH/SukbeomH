@@ -85,11 +85,7 @@ let text = `
     - Java 기반의 기존 프로젝트를 Node.js로 이관 및 성능 개선
     - PDF, Excel 파일 변환 기능 개발을 통해 데이터 처리의 편의성을 증대
 
-<div align="center">
-
-# 🌏 SukbeomH의 블로그로 가기! 🚀
-
-</div>
+![story](https://capsule-render.vercel.app/api?type=waving&height=150&color=timeGradient&text=🍊%20SukbeomH의%20블로그로%20가기!%20🚀&fontSize=40&reversal=false)
 
 <div align="center">
 `;
