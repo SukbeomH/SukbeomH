@@ -40,6 +40,7 @@
 ![Apache Kafka](https://img.shields.io/badge/apachekafka-231F20.svg?&style=for-the-badge&logo=apachekafka&logoColor=white) 
 ![Spring](https://img.shields.io/badge/spring-6DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white) 
 
+<div align="center">
 ---
 
 ![story](https://capsule-render.vercel.app/api?type=venom&height=100&color=timeGradient&text=Story&section=header&reversal=false&fontAlignY=55&descAlignY=80&descSize=25&fontColor=000000&stroke=ffffff&strokeWidth=2)
@@ -83,7 +84,6 @@
     - Java 기반의 기존 프로젝트를 Node.js로 이관 및 성능 개선
     - PDF, Excel 파일 변환 기능 개발을 통해 데이터 처리의 편의성을 증대
 
-<div align="center">
 
 # 🌏 SukbeomH의 블로그로 가기! 🚀
 
