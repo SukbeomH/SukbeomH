@@ -2,13 +2,7 @@
 <!-- Header -->
 ![header](https://capsule-render.vercel.app/api?type=rounded&height=150&color=timeGradient&text=SukbeomH&section=header&reversal=false&desc=결국에는%20해결해내는%20개발자의%20전투%20기록&fontAlignY=45&descAlignY=80&descSize=25)
 
-<div align="center">
-
-***
-# 🍊 SukbeomH의 깃허브 프로필입니다 👋
-***
-
-<div style="display: flex;">
+<div align="center" style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent" alt="SukbeomH's GitHub stats" style="height: 230px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH" alt="Top Langs" style="height: 230px;">
 </div>
@@ -40,7 +34,6 @@
 ![Apache Kafka](https://img.shields.io/badge/apachekafka-231F20.svg?&style=for-the-badge&logo=apachekafka&logoColor=white) 
 ![Spring](https://img.shields.io/badge/spring-6DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white) 
 
-<div align="center">
 ---
 
 ![story](https://capsule-render.vercel.app/api?type=venom&height=100&color=timeGradient&text=Story&section=header&reversal=false&fontAlignY=55&descAlignY=80&descSize=25&fontColor=000000&stroke=ffffff&strokeWidth=2)
@@ -84,11 +77,13 @@
     - Java 기반의 기존 프로젝트를 Node.js로 이관 및 성능 개선
     - PDF, Excel 파일 변환 기능 개발을 통해 데이터 처리의 편의성을 증대
 
+<div align="center">
 
 # 🌏 SukbeomH의 블로그로 가기! 🚀
 
 </div>
 
+<div align="center">
 
 #### [📝 [ML] 통계 기초 :: 추론 통계](https://veritasgarage.tistory.com/282)</br>
 #### [📝 [ML] 통계 개념 기초 :: 기술통계](https://veritasgarage.tistory.com/281)</br>
