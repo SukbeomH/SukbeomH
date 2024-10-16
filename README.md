@@ -5,6 +5,9 @@
 <div align="center" style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent" alt="SukbeomH's GitHub stats" style="height: 230px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH" alt="Top Langs" style="height: 230px;">
+
+    <script src="https://gist.github.com/SukbeomH/2f60862d030a1b92bc62081092280cd7.js"></script>
+
 </div>
 
 <!-- Body -->
@@ -16,7 +19,7 @@
 ![NestJS](https://img.shields.io/badge/nestjs-E0234E.svg?&style=for-the-badge&logo=nestjs&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/mariadb-003545.svg?&style=for-the-badge&logo=mariadb&logoColor=white)
 ![Electron](https://img.shields.io/badge/electron-47848F.svg?&style=for-the-badge&logo=electron&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%234479A1?style=for-the-badge&logo=mysql&logoColor=ffffff)
+![MySQL](https://img.shields.io/badge/mysql-%234479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### **🛠️ Infra and Tools**
 ![Docker](https://img.shields.io/badge/docker-2496ED.svg?&style=for-the-badge&logo=docker&logoColor=white)
@@ -24,8 +27,8 @@
 ![Debian](https://img.shields.io/badge/debian-A81D33.svg?&style=for-the-badge&logo=debian&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/ubuntu-E95420.svg?&style=for-the-badge&logo=ubuntu&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/githubactions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
-![Amazon Web Services](https://img.shields.io/badge/AmazonWebServices-%23FF9900?style=for-the-badge&logo=amazonwebservices)
-![GoogleCloudPlatform](https://img.shields.io/badge/GoogleCloudPlatform-%234285F4?style=for-the-badge&logo=google&logoColor=%23EA4335)
+![Amazon Web Services](https://img.shields.io/badge/AmazonWebServices-%23FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![GoogleCloudPlatform](https://img.shields.io/badge/GoogleCloudPlatform-%234285F4?style=for-the-badge&logo=google&logoColor=white)
 
 
 ## ⚒️👷 **Now I'm Diggin**
