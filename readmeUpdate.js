@@ -12,9 +12,6 @@ let text = `
 <div align="center" style="display: flex;">
     <img src="https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent" alt="SukbeomH's GitHub stats" style="height: 230px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH" alt="Top Langs" style="height: 230px;">
-
-    <script src="https://gist.github.com/SukbeomH/2f60862d030a1b92bc62081092280cd7.js"></script>
-
 </div>
 
 <!-- Body -->
