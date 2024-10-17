@@ -82,6 +82,7 @@
 
 <div align="center">
 
+#### [📝 RSS 피드를 사용하여 Github 프론트 페이지 자동 업데이트](https://veritasgarage.tistory.com/283)</br>
 #### [📝 [ML] 통계 기초 :: 추론 통계](https://veritasgarage.tistory.com/282)</br>
 #### [📝 [ML] 통계 개념 기초 :: 기술통계](https://veritasgarage.tistory.com/281)</br>
 #### [📝 [WEB_HTTP] Cookie와 Session](https://veritasgarage.tistory.com/280)</br>
@@ -91,4 +92,3 @@
 #### [📝 [AI번역] 엘라스틱서치의 벡터 검색: 설계 이면의 논리](https://veritasgarage.tistory.com/276)</br>
 #### [📝 [ELK] Logstash](https://veritasgarage.tistory.com/275)</br>
 #### [📝 [Elastic] QueryDSL](https://veritasgarage.tistory.com/274)</br>
-#### [📝 [ELK] Elastic Search](https://veritasgarage.tistory.com/273)</br>
