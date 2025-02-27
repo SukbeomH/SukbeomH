@@ -49,8 +49,8 @@ let text = `
 - **2022.07 ~ 2024.01** : (주) 에이시지알 백엔드 개발자로 근무
 - **2024.06 ~ 2024.12** : 우리금융그룹 우리FIS 아카데미 AI 엔지니어링 교육 수료
 
-
-- **2025.01 ~** : SK C&C Cloud/Infra Engineer **Now 🖐️**
+### **Working**
+- **2025.01** **~** : SK C&C Cloud/Infra Engineer **Now 🖐️**
 
 ### 🚀 Projects
 
