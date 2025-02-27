@@ -10,6 +10,8 @@
 <!-- Body -->
 
 ### **🧑‍💻 Lang and Frameworks**
+![python](https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white)
+![colab](https://img.shields.io/badge/colab-F9AB00.svg?&style=for-the-badge&logo=googlecolab&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-3178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/nodedotjs-339933.svg?&style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -28,16 +30,6 @@
 ![GoogleCloudPlatform](https://img.shields.io/badge/GoogleCloudPlatform-%234285F4?style=for-the-badge&logo=google&logoColor=white)
 
 
-## ⚒️👷 **Now I'm Diggin**
-![python](https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-013243.svg?&style=for-the-badge&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458.svg?&style=for-the-badge&logo=pandas&logoColor=white) 
-![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C.svg?&style=for-the-badge&logo=pytorch&logoColor=white) 
-![colab](https://img.shields.io/badge/colab-F9AB00.svg?&style=for-the-badge&logo=googlecolab&logoColor=white)
-![MLflow](https://img.shields.io/badge/mlflow-0194E2.svg?&style=for-the-badge&logo=mlflow&logoColor=white) 
-![Apache Kafka](https://img.shields.io/badge/apachekafka-231F20.svg?&style=for-the-badge&logo=apachekafka&logoColor=white) 
-![Spring](https://img.shields.io/badge/spring-6DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white) 
-
 ![story](https://capsule-render.vercel.app/api?type=venom&height=100&color=timeGradient&text=Story&section=header&reversal=false&fontAlignY=55&descAlignY=80&descSize=25&fontColor=000000&stroke=ffffff&strokeWidth=2)
 
 ## 경력 및 프로젝트
@@ -48,7 +40,10 @@
 - **2022.03 ~ 2022.05** : 코드캠프 백엔드 개발자 양성과정 수료
 - **2022.05 ~ 2022.07** : (주) 딩코 기업협업 프로젝트 참여
 - **2022.07 ~ 2024.01** : (주) 에이시지알 백엔드 개발자로 근무
-- **2024.06 ~ 2024.12** : 우리금융그룹 우리FIS 아카데미 AI 엔지니어링 교육 ← **Now 🖐️**
+- **2024.06 ~ 2024.12** : 우리금융그룹 우리FIS 아카데미 AI 엔지니어링 교육 수료
+
+
+- **2025.01 ~** : SK C&C Cloud/Infra Engineer **Now 🖐️**
 
 ### 🚀 Projects
 
@@ -77,6 +72,17 @@
     - Docker 도입을 통해 개발 환경 파편화 문제를 해결하고, 배포와 운영을 자동화
     - Java 기반의 기존 프로젝트를 Node.js로 이관 및 성능 개선
     - PDF, Excel 파일 변환 기능 개발을 통해 데이터 처리의 편의성을 증대
+
+**2024.10 ~ 2024.12** | **우대리** 개발
+- 상품 개발(및 마케팅)에 필요한 정보를 대시보드로 시각화 하며, 대시보드 내 정보를 챗봇을 통해 쉽게 이해하고 분석할 수 있도록 구현한 대직원 서비스
+- 주요역할: 서버 관리, 서비스 배포 및 운영
+- 성과:
+		- Django 프레임워크로 웹페이지 구현
+		- Airflow를 활용한 데이터 파이프라인 구성
+		- Elasticsearch를 활용한 RAG 검색 기능 구현
+		- 금융 도메인 지식 습득
+		- **우리 FIS 아카데미 3기 최종 우승**
+
 
 ![blog](https://capsule-render.vercel.app/api?type=waving&height=150&color=timeGradient&text=🍊%20SukbeomH의%20블로그로%20가기!%20🚀&fontSize=40&reversal=false)
 
