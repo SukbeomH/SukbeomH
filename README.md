@@ -42,8 +42,8 @@
 - **2022.07 ~ 2024.01** : (주) 에이시지알 백엔드 개발자로 근무
 - **2024.06 ~ 2024.12** : 우리금융그룹 우리FIS 아카데미 AI 엔지니어링 교육 수료
 
-
-- **2025.01 ~** : SK C&C Cloud/Infra Engineer **Now 🖐️**
+### **Working**
+- **2025.01** **~** : SK C&C Cloud/Infra Engineer **Now 🖐️**
 
 ### 🚀 Projects
 
@@ -88,6 +88,9 @@
 
 <div align="center">
 
+#### [📝 [EKS] status.Phase: Invalid value: &quot;Active&quot;: may only be 'Terminating' if `deletionTimestamp` is not empty](https://veritasgarage.tistory.com/286)</br>
+#### [📝 [K8s] 기계는 죽지 않는다, 다만 다시 뜰 뿐](https://veritasgarage.tistory.com/285)</br>
+#### [📝 [K8s] 개요, 키워드, 총정리](https://veritasgarage.tistory.com/284)</br>
 #### [📝 RSS 피드를 사용하여 Github 프론트 페이지 자동 업데이트](https://veritasgarage.tistory.com/283)</br>
 #### [📝 [ML] 통계 기초 :: 추론 통계](https://veritasgarage.tistory.com/282)</br>
 #### [📝 [ML] 통계 개념 기초 :: 기술통계](https://veritasgarage.tistory.com/281)</br>
@@ -95,6 +98,4 @@
 #### [📝 [RAG] RAG와 ELK](https://veritasgarage.tistory.com/279)</br>
 #### [📝 [Python] Django Basics](https://veritasgarage.tistory.com/278)</br>
 #### [📝 [AI번역] SIMD 명령어로 벡터 검색 가속화](https://veritasgarage.tistory.com/277)</br>
-#### [📝 [AI번역] 엘라스틱서치의 벡터 검색: 설계 이면의 논리](https://veritasgarage.tistory.com/276)</br>
-#### [📝 [ELK] Logstash](https://veritasgarage.tistory.com/275)</br>
-#### [📝 [Elastic] QueryDSL](https://veritasgarage.tistory.com/274)</br>
+</div>

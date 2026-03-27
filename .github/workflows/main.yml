@@ -4,7 +4,7 @@ name: Readme Update
 
 # Controls when the workflow will run
 on:
-# 20시간에 한번씩 아래 스크립트를 실행한다.
+# 매일 0시, 20시 (UTC) 실행
   schedule:
     - cron: "0 */20 * * *"
   workflow_dispatch: {} # 자동 시간 외 워크플로우 수동으로 트리거하는 기능 추가
@@ -15,8 +15,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 20
       - name: Install dependencies
@@ -25,7 +25,8 @@ jobs:
         run: npm start
       - name: Commit README
         run: |
-          git add .
+          git add README.md
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
           git config --local user.email "brent93.dev@gmail.com"
           git config --local user.name "SukbeomH"
           git commit -m "Update README.md because of Blog updates"
