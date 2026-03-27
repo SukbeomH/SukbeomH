@@ -1,0 +1,27 @@
+# Current Session Context
+
+## Session Narrative
+> On 2026-03-27 15:25:41, the developer was working on the **master** branch, modifying 1 files across `.hxsk`. The recent work involved: chore: HExoskeleton(HXSK) 개발 방법론 초기 설정.
+
+## Context Snapshot
+- **Active Task**: chore: HExoskeleton(HXSK) 개발 방법론 초기 설정
+- **Branch**: master
+- **Files Changed**: 1
+- **Last Updated**: 2026-03-27 15:25:41
+
+## Working Files
+```
+?? .hxsk/.session-active
+```
+
+## Recent Commits
+```
+54bbd9f chore: HExoskeleton(HXSK) 개발 방법론 초기 설정
+7a97cc2 fix: readmeUpdate.js 버그 수정 및 GitHub Actions 안정화
+cdbd016 Update readmeUpdate.js
+```
+
+## Diff Stats
+```
+No diff available
+```
