@@ -5,80 +5,77 @@
     "height": 150,
     "color": "timeGradient",
     "text": "SukbeomH",
-    "desc": "결국에는 해결해내는 개발자의 전투 기록",
+    "desc": "Cloud%20%C2%B7%20AI%20Platform%20Engineer",
     "fontAlignY": 45,
     "descAlignY": 80,
-    "descSize": 25
+    "descSize": 20,
+    "rawDesc": true
+  },
+  "intro": {
+    "title": "안녕하세요, 홍석범입니다 👋",
+    "lines": [
+      "**SK AX**에서 Kubernetes 기반 클라우드 플랫폼과 AI 인프라를 설계·개발하고 있습니다.",
+      "Go, Python으로 Admission Webhook, LLM Gateway, RAG Pipeline 등을 구축하며, 모델 서빙부터 에이전트 오케스트레이션까지 프로덕션 레벨의 AI 플랫폼을 만들고 있습니다.",
+      "심리학에서 시작해 백엔드 → AI → 클라우드 인프라로 영역을 넓혀왔습니다."
+    ],
+    "currentFocus": "🔭 현재 집중: **LLM Serving Infrastructure** · **RAG Pipeline 최적화** · **AI Agent Orchestration**"
+  },
+  "contact": {
+    "email": "brent93.dev@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sukbeomh",
+    "blog": "https://veritasgarage.tistory.com"
   },
   "rss": {
     "url": "https://veritasgarage.tistory.com/rss",
-    "maxPosts": 10
+    "maxPosts": 5
   },
   "badges": {
-    "🧑‍💻 Lang and Frameworks": [
-      { "label": "Python", "logo": "python", "color": "3776AB" },
+    "⚡ Primary": [
       { "label": "Go", "logo": "go", "color": "00ADD8" },
-      { "label": "JavaScript", "logo": "javascript", "color": "F7DF1E" },
-      { "label": "TypeScript", "logo": "typescript", "color": "3178C6" },
-      { "label": "Shell", "logo": "gnubash", "color": "4EAA25" },
-      { "label": "Node.js", "logo": "nodedotjs", "color": "339933" },
-      { "label": "NestJS", "logo": "nestjs", "color": "E0234E" },
-      { "label": "Django", "logo": "django", "color": "092E20" },
-      { "label": "LangChain", "logo": "langchain", "color": "1C3C3C" }
-    ],
-    "🗄️ Data and DB": [
-      { "label": "MySQL", "logo": "mysql", "color": "4479A1" },
-      { "label": "MariaDB", "logo": "mariadb", "color": "003545" },
-      { "label": "OpenSearch", "logo": "opensearch", "color": "005EB8" },
-      { "label": "Elasticsearch", "logo": "elasticsearch", "color": "005571" }
-    ],
-    "🛠️ Infra and Tools": [
+      { "label": "Python", "logo": "python", "color": "3776AB" },
       { "label": "Kubernetes", "logo": "kubernetes", "color": "326CE5" },
       { "label": "Docker", "logo": "docker", "color": "2496ED" },
-      { "label": "Terraform", "logo": "terraform", "color": "844FBA" },
-      { "label": "GitHub Actions", "logo": "githubactions", "color": "2088FF" },
+      { "label": "Terraform", "logo": "terraform", "color": "844FBA" }
+    ],
+    "🧰 Experienced": [
+      { "label": "TypeScript", "logo": "typescript", "color": "3178C6" },
+      { "label": "JavaScript", "logo": "javascript", "color": "F7DF1E" },
+      { "label": "Shell", "logo": "gnubash", "color": "4EAA25" },
+      { "label": "Node.js", "logo": "nodedotjs", "color": "339933" },
+      { "label": "Django", "logo": "django", "color": "092E20" },
+      { "label": "LangChain", "logo": "langchain", "color": "1C3C3C" },
+      { "label": "OpenSearch", "logo": "opensearch", "color": "005EB8" },
+      { "label": "MySQL", "logo": "mysql", "color": "4479A1" },
       { "label": "AWS", "logo": "amazonwebservices", "color": "FF9900" },
-      { "label": "Airflow", "logo": "apacheairflow", "color": "017CEE" },
-      { "label": "Proxmox", "logo": "proxmox", "color": "E57000" }
+      { "label": "GitHub Actions", "logo": "githubactions", "color": "2088FF" },
+      { "label": "Airflow", "logo": "apacheairflow", "color": "017CEE" }
     ]
   },
   "career": {
     "history": [
-      "**2014.03 ~ 2020.08** : 중앙대학교 심리학과 졸업",
+      "**2014.03 ~ 2020.08** : 중앙대학교 심리학과 졸업 (군 복무 포함)",
       "**2021.04 ~ 2021.12** : 언리얼 XR 개발자 과정 수료 (과기정통부 메디치센터)",
-      "**2022.03 ~ 2022.05** : 코드캠프 백엔드 개발자 양성과정 수료",
-      "**2022.05 ~ 2022.07** : 온클(Onkul) 기업협업 — 온라인 강의 플랫폼 백엔드",
-      "**2022.07 ~ 2023.12** : (주) ACGR 백엔드 개발자로 근무",
-      "**2024** : 우리금융그룹 우리FIS 아카데미 AI 엔지니어링 3기 수료"
+      "**2022.03 ~ 2022.07** : 코드캠프 백엔드 과정 수료 → 온클(Onkul) 기업협업",
+      "**2022.07 ~ 2023.12** : (주) ACGR 백엔드 개발자",
+      "**2024** : 우리FIS 아카데미 AI 엔지니어링 3기 수료"
     ],
     "working": "**2025.01 ~** : SK AX · Cloud/Infra Engineer (EnableX Platform팀) **Now 🖐️**",
     "projects": [
       {
-        "period": "2022.05 ~ 2022.07",
-        "title": "온라인 동영상 강의 플랫폼 백엔드",
-        "details": [
-          "온클(Onkul) 기업협업 — Node.js, NestJS, TypeScript, MySQL",
-          "주요역할: 백엔드 서버 개발, 관리자 서비스 구축",
-          "Jest 유닛 테스트로 코드 품질 유지"
-        ]
-      },
-      {
         "period": "2022.07 ~ 2023.12",
         "title": "인적성 검사 플랫폼 (ACGR)",
         "details": [
-          "오프라인 검사를 온라인으로 전환하는 플랫폼 설계·개발·운영",
-          "NestJS, TypeScript, MariaDB — DB 설계, RESTful API, Docker CI/CD",
-          "Java → Node.js 이관 및 성능 개선",
-          "ELK Stack 모니터링, PDF/Excel 변환 기능 개발"
+          "오프라인 → 온라인 전환 플랫폼 단독 설계·개발·운영",
+          "NestJS, TypeScript, MariaDB — Java에서 Node.js로 이관, API 응답속도 개선",
+          "Docker CI/CD 도입으로 배포 시간 단축, ELK Stack 모니터링 구축"
         ]
       },
       {
         "period": "2024.10 ~ 2024.12",
         "title": "우대리(Woodaeri) — RAG 챗봇 대직원 서비스",
         "details": [
-          "우리FIS 아카데미 최종 프로젝트 (6인 팀)",
-          "전체 아키텍처 설계, RAG 백엔드, 배포 담당",
-          "Django, OpenSearch 벡터 검색, Airflow, Docker/AWS",
+          "6인 팀 — 전체 아키텍처 설계, RAG 백엔드, 배포 담당",
+          "Django + OpenSearch 벡터 검색 + Airflow 파이프라인, Docker/AWS 배포",
           "**우리 FIS 아카데미 3기 최종 우승**"
         ]
       },
@@ -87,8 +84,8 @@
         "title": "클라우드 플랫폼 개발 (SK AX)",
         "details": [
           "Kubernetes 기반 클라우드 플랫폼 기능 개발 및 운영",
-          "Go, Python, Vue.js — Admission Webhook, LLM Gateway, AI 에이전트 백엔드",
-          "RAG 파이프라인 설계·개발, 모델 서빙 인프라 구축"
+          "Go — K8s Admission Webhook 단독 설계·배포, GPU 리소스 할당 자동 검증",
+          "Python — LLM Gateway 구축, RAG 파이프라인 노드 설계·개발, 모델 서빙 인프라"
         ]
       }
     ],
@@ -96,27 +93,27 @@
       {
         "period": "2026.01 ~",
         "title": "HExoskeleton",
-        "desc": "AI 에이전트 기반 개발 방법론 프레임워크 — 순수 bash + 마크다운",
+        "desc": "AI 에이전트 기반 개발 방법론 프레임워크 — 순수 bash + 마크다운, 307 commits",
         "url": "https://github.com/SukbeomH/HExoskeleton"
       },
       {
         "period": "2026.02 ~",
         "title": "RAG-Bench",
-        "desc": "RAG 파이프라인 벤치마크 프레임워크 — 임베딩 모델/PDF 파서/검색 전략 비교",
+        "desc": "RAG 파이프라인 벤치마크 프레임워크 — 임베딩 모델/PDF 파서/검색 전략 비교, 287 commits",
         "url": "https://github.com/SukbeomH/RAG-Bench"
       }
     ]
   },
   "blogBanner": {
     "type": "waving",
-    "height": 150,
+    "height": 100,
     "color": "timeGradient",
-    "text": "🍊 SukbeomH의 블로그로 가기! 🚀",
-    "fontSize": 40
+    "text": "🍊 Blog",
+    "fontSize": 30
   },
   "storyBanner": {
     "type": "venom",
-    "height": 100,
+    "height": 80,
     "color": "timeGradient",
     "text": "Story",
     "fontColor": "000000"
