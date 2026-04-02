@@ -130,7 +130,7 @@
 <div align="center">
 
 
-#### [📝 \[EKS\] status.Phase: Invalid value: &amp;quot;Active&amp;quot;: may only be &#39;Terminating&#39; if `deletionTimestamp` is not empty](https://veritasgarage.tistory.com/286)</br>
+#### [📝 \[EKS\] status.Phase: Invalid value: &#34;Active&#34;: may only be &#39;Terminating&#39; if `deletionTimestamp` is not empty](https://veritasgarage.tistory.com/286)</br>
 
 
 #### [📝 \[K8s\] 기계는 죽지 않는다, 다만 다시 뜰 뿐](https://veritasgarage.tistory.com/285)</br>

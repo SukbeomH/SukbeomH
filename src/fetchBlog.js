@@ -6,11 +6,23 @@ const parser = new Parser({
   },
 });
 
+const HTML_ENTITIES = {
+  "&amp;": "&", "&lt;": "<", "&gt;": ">",
+  "&quot;": '"', "&#39;": "'", "&apos;": "'",
+};
+
+function decodeHtmlEntities(str) {
+  return str.replace(/&(?:amp|lt|gt|quot|apos|#39);/g, (m) => HTML_ENTITIES[m] ?? m);
+}
+
 export async function fetchBlog(url, maxPosts = 10) {
   try {
     const feed = await parser.parseURL(url);
     const items = feed.items ?? [];
-    return items.slice(0, maxPosts).map(({ title, link }) => ({ title, link }));
+    return items.slice(0, maxPosts).map(({ title, link }) => ({
+      title: decodeHtmlEntities(title ?? ""),
+      link,
+    }));
   } catch (err) {
     console.error("RSS fetch failed:", err.message);
     return [];
