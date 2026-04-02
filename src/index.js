@@ -5,7 +5,6 @@ import ejs from "ejs";
 
 import { fetchBlog } from "./fetchBlog.js";
 import { fetchGitHub } from "./fetchGitHub.js";
-import { generateCards } from "./generateCards.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, "..");
@@ -23,8 +22,6 @@ async function main() {
     fetchGitHub(profile.username),
   ]);
 
-  const cards = generateCards(root, profile.username, github.stats, github.languages);
-
   const data = {
     ...profile,
     blogPosts: blogPosts.map((p) => ({
@@ -32,14 +29,13 @@ async function main() {
       link: p.link,
     })),
     pinnedRepos: github.pinnedRepos,
-    cards,
     encodeURIComponent,
   };
 
   const readme = ejs.render(template, data);
   writeFileSync(join(root, "README.md"), readme, "utf8");
 
-  console.log(`README.md updated: ${blogPosts.length} blog posts, ${github.pinnedRepos.length} pinned repos, cards: stats=${cards.hasStats} langs=${cards.hasLangs}`);
+  console.log(`README.md updated: ${blogPosts.length} blog posts, ${github.pinnedRepos.length} pinned repos`);
 }
 
 main().catch((err) => {

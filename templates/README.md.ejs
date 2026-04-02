@@ -1,31 +1,29 @@
 <!-- Header -->
-![header](https://capsule-render.vercel.app/api?type=<%= header.type %>&height=<%= header.height %>&color=<%= header.color %>&text=<%= encodeURIComponent(header.text) %>&section=header&reversal=false&desc=<%= encodeURIComponent(header.desc) %>&fontAlignY=<%= header.fontAlignY %>&descAlignY=<%= header.descAlignY %>&descSize=<%= header.descSize %>)
+![header](https://capsule-render.vercel.app/api?type=<%= header.type %>&height=<%= header.height %>&color=<%= header.color %>&text=<%= encodeURIComponent(header.text) %>&section=header&reversal=false&desc=<%= header.rawDesc ? header.desc : encodeURIComponent(header.desc) %>&fontAlignY=<%= header.fontAlignY %>&descAlignY=<%= header.descAlignY %>&descSize=<%= header.descSize %>)
 
-<div align="center">
-<%_ if (cards.hasStats) { _%>
-    <img src="./assets/stats.svg" alt="<%= username %>'s GitHub stats" style="height: 220px;">
-<%_ } _%>
-<%_ if (cards.hasLangs) { _%>
-    <img src="./assets/top-langs.svg" alt="Top Langs" style="height: 220px;">
-<%_ } _%>
-</div>
+## <%= intro.title %>
 
-<!-- Body -->
+<% for (const line of intro.lines) { %>
+<%= line %>
+<% } %>
+
+<%= intro.currentFocus %>
+
+📫 **Contact**: [Email](mailto:<%= contact.email %>) · [LinkedIn](<%= contact.linkedin %>) · [Blog](<%= contact.blog %>)
+
+---
+
+<!-- Tech Stack -->
 <% for (const [groupName, items] of Object.entries(badges)) { %>
-
 ### **<%= groupName %>**
 <% for (const b of items) { %>![<%= b.label %>](https://img.shields.io/badge/<%= encodeURIComponent(b.label) %>-<%= b.color %>.svg?&style=for-the-badge&logo=<%= b.logo %>&logoColor=white)
 <% } %>
+
 <% } %>
+---
 
-![story](https://capsule-render.vercel.app/api?type=<%= storyBanner.type %>&height=<%= storyBanner.height %>&color=<%= storyBanner.color %>&text=<%= encodeURIComponent(storyBanner.text) %>&section=header&reversal=false&fontAlignY=55&descAlignY=80&descSize=25&fontColor=<%= storyBanner.fontColor %>&stroke=ffffff&strokeWidth=2)
-
-## 경력 및 프로젝트
-
-### 📖 History
-<% for (const item of career.history) { %>
-- <%= item %>
-<% } %>
+<!-- Career -->
+![story](https://capsule-render.vercel.app/api?type=<%= storyBanner.type %>&height=<%= storyBanner.height %>&color=<%= storyBanner.color %>&text=<%= encodeURIComponent(storyBanner.text) %>&section=header&reversal=false&fontAlignY=55&fontColor=<%= storyBanner.fontColor %>&stroke=ffffff&strokeWidth=2)
 
 ### **Working**
 - <%= career.working %>
@@ -45,6 +43,14 @@
 - [**<%= sp.title %>**](<%= sp.url %>) (<%= sp.period %>) — <%= sp.desc %>
 <% } %>
 <% } %>
+
+<details>
+<summary><b>📖 History</b></summary>
+
+<% for (const item of career.history) { %>
+- <%= item %>
+<% } %>
+</details>
 <% if (pinnedRepos.length > 0) { %>
 
 ### 📌 Pinned Repositories
@@ -53,6 +59,9 @@
 <% } %>
 <% } %>
 
+---
+
+<!-- Blog -->
 ![blog](https://capsule-render.vercel.app/api?type=<%= blogBanner.type %>&height=<%= blogBanner.height %>&color=<%= blogBanner.color %>&text=<%= encodeURIComponent(blogBanner.text) %>&fontSize=<%= blogBanner.fontSize %>&reversal=false)
 
 <div align="center">
