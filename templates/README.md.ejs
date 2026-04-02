@@ -2,10 +2,12 @@
 ![header](https://capsule-render.vercel.app/api?type=<%= header.type %>&height=<%= header.height %>&color=<%= header.color %>&text=<%= encodeURIComponent(header.text) %>&section=header&reversal=false&desc=<%= encodeURIComponent(header.desc) %>&fontAlignY=<%= header.fontAlignY %>&descAlignY=<%= header.descAlignY %>&descSize=<%= header.descSize %>)
 
 <div align="center">
-<% if (cards.hasStats) { %>    <img src="./assets/stats.svg" alt="<%= username %>'s GitHub stats" style="height: 220px;">
-<% } %>
-<% if (cards.hasLangs) { %>    <img src="./assets/top-langs.svg" alt="Top Langs" style="height: 220px;">
-<% } %>
+<%_ if (cards.hasStats) { _%>
+    <img src="./assets/stats.svg" alt="<%= username %>'s GitHub stats" style="height: 220px;">
+<%_ } _%>
+<%_ if (cards.hasLangs) { _%>
+    <img src="./assets/top-langs.svg" alt="Top Langs" style="height: 220px;">
+<%_ } _%>
 </div>
 
 <!-- Body -->

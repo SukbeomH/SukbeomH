@@ -3,9 +3,7 @@
 
 <div align="center">
     <img src="./assets/stats.svg" alt="SukbeomH's GitHub stats" style="height: 220px;">
-
     <img src="./assets/top-langs.svg" alt="Top Langs" style="height: 220px;">
-
 </div>
 
 <!-- Body -->
