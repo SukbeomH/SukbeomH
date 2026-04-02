@@ -31,8 +31,18 @@ export async function fetchGitHub(username) {
       body: JSON.stringify({ query: QUERY, variables: { username } }),
     });
 
-    const { data } = await res.json();
-    const pinnedRepos = (data?.user?.pinnedItems?.nodes ?? []).map((repo) => ({
+    if (!res.ok) {
+      console.error(`GitHub API returned ${res.status}: ${res.statusText}`);
+      return { pinnedRepos: [] };
+    }
+
+    const json = await res.json();
+    if (json.errors) {
+      console.error("GitHub GraphQL errors:", json.errors.map((e) => e.message).join(", "));
+      return { pinnedRepos: [] };
+    }
+
+    const pinnedRepos = (json.data?.user?.pinnedItems?.nodes ?? []).map((repo) => ({
       name: repo.name,
       description: repo.description ?? "",
       url: repo.url,
