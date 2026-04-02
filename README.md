@@ -1,9 +1,11 @@
 <!-- Header -->
 ![header](https://capsule-render.vercel.app/api?type=rounded&height=150&color=timeGradient&text=SukbeomH&section=header&reversal=false&desc=%EA%B2%B0%EA%B5%AD%EC%97%90%EB%8A%94%20%ED%95%B4%EA%B2%B0%ED%95%B4%EB%82%B4%EB%8A%94%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%20%EC%A0%84%ED%88%AC%20%EA%B8%B0%EB%A1%9D&fontAlignY=45&descAlignY=80&descSize=25)
 
-<div align="center" style="display: flex;">
-    <img src="https://github-readme-stats.vercel.app/api?username=SukbeomH&show_icons=true&theme=transparent" alt="SukbeomH's GitHub stats" style="height: 230px;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SukbeomH" alt="Top Langs" style="height: 230px;">
+<div align="center">
+    <img src="./assets/stats.svg" alt="SukbeomH's GitHub stats" style="height: 220px;">
+
+    <img src="./assets/top-langs.svg" alt="Top Langs" style="height: 220px;">
+
 </div>
 
 <!-- Body -->
@@ -122,6 +124,14 @@
 
 - **우리 FIS 아카데미 3기 최종 우승**
 
+
+
+
+### 📌 Pinned Repositories
+
+- [**tech-seminar-final**](https://github.com/SukbeomH/tech-seminar-final) — Woori FIS Academy Tech Seminar Final ⭐ 0
+
+- [**AI-Chat-Bot-Proj**](https://github.com/woori-fisa-ai-final/AI-Chat-Bot-Proj) — 🚧🚧 우리 FIS 아카데미 최종 프로젝트 🚧🚧 ⭐ 0
 
 
 

@@ -1,0 +1,37 @@
+<svg width="350" height="220" viewBox="0 0 350 220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 16px 'Segoe UI', Ubuntu, sans-serif; fill: #2f80ed; }
+    .label { font: 400 13px 'Segoe UI', Ubuntu, sans-serif; fill: #333; }
+    .value { font: 600 13px 'Segoe UI', Ubuntu, sans-serif; fill: #333; text-anchor: end; }
+  </style>
+  <rect width="350" height="220" rx="6" fill="#fafafa" stroke="#e4e2e2" stroke-width="1"/>
+  <g transform="translate(25, 30)">
+    <text class="header">SukbeomH's GitHub Stats</text>
+    <g transform="translate(0, 20)">
+    <g transform="translate(0, 0)">
+      <text x="25" y="18" class="label">⭐ Total Stars:</text>
+      <text x="280" y="18" class="value">6</text>
+    </g>
+    <g transform="translate(0, 28)">
+      <text x="25" y="18" class="label">📝 Total Commits:</text>
+      <text x="280" y="18" class="value">2,039</text>
+    </g>
+    <g transform="translate(0, 56)">
+      <text x="25" y="18" class="label">🔀 Total PRs:</text>
+      <text x="280" y="18" class="value">369</text>
+    </g>
+    <g transform="translate(0, 84)">
+      <text x="25" y="18" class="label">❗ Total Issues:</text>
+      <text x="280" y="18" class="value">175</text>
+    </g>
+    <g transform="translate(0, 112)">
+      <text x="25" y="18" class="label">📦 Total Repos:</text>
+      <text x="280" y="18" class="value">82</text>
+    </g>
+    <g transform="translate(0, 140)">
+      <text x="25" y="18" class="label">👥 Followers:</text>
+      <text x="280" y="18" class="value">24</text>
+    </g>
+    </g>
+  </g>
+</svg>

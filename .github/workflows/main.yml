@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit README
         run: |
-          git add README.md
+          git add README.md assets/
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git config --local user.email "brent93.dev@gmail.com"
           git config --local user.name "SukbeomH"

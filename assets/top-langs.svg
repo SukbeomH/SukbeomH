@@ -1,0 +1,55 @@
+<svg width="350" height="178" viewBox="0 0 350 178" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font: 600 16px 'Segoe UI', Ubuntu, sans-serif; fill: #2f80ed; }
+    .lang { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #333; }
+  </style>
+  <rect width="350" height="178" rx="6" fill="#fafafa" stroke="#e4e2e2" stroke-width="1"/>
+  <g transform="translate(25, 30)">
+    <text class="header">Most Used Languages</text>
+    <svg x="0" y="18" width="300" height="8">
+      <rect x="0%" width="26.8%" height="8" rx="1" fill="#3572A5"/>
+      <rect x="26.8%" width="22.6%" height="8" rx="1" fill="#e34c26"/>
+      <rect x="49.400000000000006%" width="15.4%" height="8" rx="1" fill="#f34b7d"/>
+      <rect x="64.80000000000001%" width="13.3%" height="8" rx="1" fill="#DA5B0B"/>
+      <rect x="78.10000000000001%" width="10%" height="8" rx="1" fill="#f1e05a"/>
+      <rect x="88.10000000000001%" width="7.8%" height="8" rx="1" fill="#3178c6"/>
+      <rect x="95.9%" width="3.3%" height="8" rx="1" fill="#178600"/>
+      <rect x="99.2%" width="0.8%" height="8" rx="1" fill="#00ADD8"/>
+    </svg>
+    <g transform="translate(0, 38)">
+      
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="6" r="5" fill="#3572A5"/>
+      <text x="16" y="10" class="lang">Python 26.8%</text>
+    </g>
+    <g transform="translate(150, 0)">
+      <circle cx="6" cy="6" r="5" fill="#e34c26"/>
+      <text x="16" y="10" class="lang">HTML 22.6%</text>
+    </g>
+    <g transform="translate(0, 22)">
+      <circle cx="6" cy="6" r="5" fill="#f34b7d"/>
+      <text x="16" y="10" class="lang">C++ 15.4%</text>
+    </g>
+    <g transform="translate(150, 22)">
+      <circle cx="6" cy="6" r="5" fill="#DA5B0B"/>
+      <text x="16" y="10" class="lang">Jupyter Notebook 13.3%</text>
+    </g>
+    <g transform="translate(0, 44)">
+      <circle cx="6" cy="6" r="5" fill="#f1e05a"/>
+      <text x="16" y="10" class="lang">JavaScript 10.0%</text>
+    </g>
+    <g transform="translate(150, 44)">
+      <circle cx="6" cy="6" r="5" fill="#3178c6"/>
+      <text x="16" y="10" class="lang">TypeScript 7.8%</text>
+    </g>
+    <g transform="translate(0, 66)">
+      <circle cx="6" cy="6" r="5" fill="#178600"/>
+      <text x="16" y="10" class="lang">C# 3.3%</text>
+    </g>
+    <g transform="translate(150, 66)">
+      <circle cx="6" cy="6" r="5" fill="#00ADD8"/>
+      <text x="16" y="10" class="lang">Go 0.8%</text>
+    </g>
+    </g>
+  </g>
+</svg>
