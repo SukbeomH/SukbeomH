@@ -5,7 +5,7 @@
   "main": "readmeUpdate.js",
   "type": "module",
   "scripts": {
-    "start": "node readmeUpdate.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
