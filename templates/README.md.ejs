@@ -38,6 +38,13 @@
 - <%= d %>
 <% } %>
 <% } %>
+<% if (career.sideProjects && career.sideProjects.length > 0) { %>
+
+### 🧪 Side Projects
+<% for (const sp of career.sideProjects) { %>
+- [**<%= sp.title %>**](<%= sp.url %>) (<%= sp.period %>) — <%= sp.desc %>
+<% } %>
+<% } %>
 <% if (pinnedRepos.length > 0) { %>
 
 ### 📌 Pinned Repositories
