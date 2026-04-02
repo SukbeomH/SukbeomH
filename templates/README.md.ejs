@@ -1,0 +1,52 @@
+<!-- Header -->
+![header](https://capsule-render.vercel.app/api?type=<%= header.type %>&height=<%= header.height %>&color=<%= header.color %>&text=<%= encodeURIComponent(header.text) %>&section=header&reversal=false&desc=<%= encodeURIComponent(header.desc) %>&fontAlignY=<%= header.fontAlignY %>&descAlignY=<%= header.descAlignY %>&descSize=<%= header.descSize %>)
+
+<div align="center" style="display: flex;">
+    <img src="https://github-readme-stats.vercel.app/api?username=<%= username %>&show_icons=true&theme=transparent" alt="<%= username %>'s GitHub stats" style="height: 230px;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=<%= username %>" alt="Top Langs" style="height: 230px;">
+</div>
+
+<!-- Body -->
+<% for (const [groupName, items] of Object.entries(badges)) { %>
+
+### **<%= groupName %>**
+<% for (const b of items) { %>![<%= b.label %>](https://img.shields.io/badge/<%= b.label %>-<%= b.color %>.svg?&style=for-the-badge&logo=<%= b.logo %>&logoColor=white)
+<% } %>
+<% } %>
+
+![story](https://capsule-render.vercel.app/api?type=<%= storyBanner.type %>&height=<%= storyBanner.height %>&color=<%= storyBanner.color %>&text=<%= encodeURIComponent(storyBanner.text) %>&section=header&reversal=false&fontAlignY=55&descAlignY=80&descSize=25&fontColor=<%= storyBanner.fontColor %>&stroke=ffffff&strokeWidth=2)
+
+## 경력 및 프로젝트
+
+### 📖 History
+<% for (const item of career.history) { %>
+- <%= item %>
+<% } %>
+
+### **Working**
+- <%= career.working %>
+
+### 🚀 Projects
+<% for (const proj of career.projects) { %>
+
+**<%= proj.period %>** | **<%= proj.title %>**
+<% for (const d of proj.details) { %>
+- <%= d %>
+<% } %>
+<% } %>
+<% if (pinnedRepos.length > 0) { %>
+
+### 📌 Pinned Repositories
+<% for (const repo of pinnedRepos) { %>
+- [**<%= repo.name %>**](<%= repo.url %>) — <%= repo.description %> ⭐ <%= repo.stars %>
+<% } %>
+<% } %>
+
+![blog](https://capsule-render.vercel.app/api?type=<%= blogBanner.type %>&height=<%= blogBanner.height %>&color=<%= blogBanner.color %>&text=<%= encodeURIComponent(blogBanner.text) %>&fontSize=<%= blogBanner.fontSize %>&reversal=false)
+
+<div align="center">
+<% for (const post of blogPosts) { %>
+
+#### [📝 <%= post.title %>](<%= post.link %>)</br>
+<% } %>
+</div>
