@@ -14,7 +14,7 @@
 <% for (const [groupName, items] of Object.entries(badges)) { %>
 
 ### **<%= groupName %>**
-<% for (const b of items) { %>![<%= b.label %>](https://img.shields.io/badge/<%= b.label %>-<%= b.color %>.svg?&style=for-the-badge&logo=<%= b.logo %>&logoColor=white)
+<% for (const b of items) { %>![<%= b.label %>](https://img.shields.io/badge/<%= encodeURIComponent(b.label) %>-<%= b.color %>.svg?&style=for-the-badge&logo=<%= b.logo %>&logoColor=white)
 <% } %>
 <% } %>
 

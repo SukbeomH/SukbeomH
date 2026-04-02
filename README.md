@@ -34,7 +34,7 @@
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?&style=for-the-badge&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?&style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub Actions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900.svg?&style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE.svg?&style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000.svg?&style=for-the-badge&logo=proxmox&logoColor=white)
