@@ -115,11 +115,11 @@
 
 <sub>비공개 저장소는 이름 없이 분야별로 요약합니다.</sub>
 
-- **📈 자동매매** — 증권사 API 기반 시트 주도 자동매매 데몬과 Windows 앱을 직접 실운영. 구현 에이전트와 독립 리뷰 세션을 분리하고 주문 경로는 fail-closed로 설계. 이와 별도로 point-in-time 투자 리서치·페이퍼 트레이딩 파이프라인과 이벤트 기반 퀀트 프레임워크를 연구
-- **🧠 에이전트 인프라** — Obsidian 볼트를 원본으로 여러 에이전트 하네스(Claude Code·Codex·Gemini·Hermes 등)의 지침·스킬·메모리를 렌더링·배포하는 체계, 프로젝트 설정형 브라우저 QA 러너, 출처·인용을 불변 리비전으로 추적하는 증거 저장소, 오케스트레이터 + 샌드박스 승인 흐름 PoC
-- **📚 지식 운영** — NotebookLM을 출처 기반 합성 계층으로, Obsidian을 canonical 저장소로 두는 리서치 운영 모델과 OKF/OWL 관점의 지식베이스 구조화
-- **🏠 홈랩 · 자동화** — Proxmox 홈랩 운영 워크스페이스(API 래퍼·상태 점검·스토리지·원격 접근)와 Home Assistant 연동, Android 컨테이너 기반 모바일 앱 UI 자동화 CLI
-- **🎮 기타** — Godot 4 퍼즐 게임 데모(역방향 레벨 생성기·난이도 측정), Steam Controller 2 햅틱 출력 리서치
+- **📈 자동매매 · 퀀트** — 시트 주도 자동매매 데몬(Linux)과 Windows 앱을 실계좌로 운영 — 브로커 변경·결과 불명 시 차단하는 fail-closed 주문 경로, 구현 에이전트와 독립 리뷰 세션 분리, 테스트 248 파일, 태그 릴리스. 별도로 point-in-time 투자 리서치 파이프라인(append-only 리비전 DB, 사전등록 연구, 페이퍼 트레이딩만), 백테스트와 paper가 같은 파이프라인을 쓰는 이벤트 기반 퀀트 프레임워크(테스트 약 1,600개), 공개 데이터 기반 방어형 리밸런싱 검증을 연구
+- **🧠 에이전트 인프라** — Obsidian 볼트를 원본으로 10여 종 에이전트 하네스(Claude Code·Codex·Gemini·Hermes 등)의 지침·스킬·메모리를 렌더링·배포하고 Stop 훅으로 자동 동기화하는 체계, JSON으로 역할·검사를 정의해 격리 Chromium에서 돌리는 브라우저 QA 러너(쓰기 3중 승인·종료코드 규약), 소스 리비전·인용을 결정론적으로 추적하는 증거 저장소(stdlib만, 내구성 잡·리스, MCP 어댑터), 오케스트레이터 + 전문가 리뷰어 + 샌드박스 승인 흐름 PoC
+- **📚 지식 운영** — 제텔카스텐 + KDC 십진분류로 구성한 Obsidian 볼트를 canonical 저장소로, NotebookLM을 출처 기반 합성 계층으로 두는 리서치 운영 모델과 OKF/OWL 관점의 지식베이스 구조화
+- **🏠 홈랩 · 자동화** — Proxmox 홈랩 운영 워크스페이스(PVE API 래퍼·상태 점검·인벤토리·Tailscale 원격 접근·SMB 스토리지·systemd)와 Home Assistant 연동, Android 컨테이너(redroid) 기반 모바일 앱 UI 자동화 CLI(adb·systemd 자동복구·웹 UI, 실기기 e2e 검증)
+- **🎮 기타** — Godot 4 퍼즐 게임 데모(역방향 레벨 생성기·난이도 지표, 헤드리스 테스트 89건, 150레벨 자동 생성·검증), Steam Controller 2 HD 햅틱을 위한 햅틱 변환 계층 리서치(C#/.NET HID), human-in-the-loop 이미지 상품검색 PoC
 
 ---
 
