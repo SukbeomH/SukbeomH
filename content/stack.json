@@ -1,0 +1,94 @@
+{
+  "groups": [
+    {
+      "title": "⚡ Primary",
+      "badges": [
+        {
+          "label": "Go",
+          "logo": "go",
+          "color": "00ADD8"
+        },
+        {
+          "label": "Python",
+          "logo": "python",
+          "color": "3776AB"
+        },
+        {
+          "label": "Kubernetes",
+          "logo": "kubernetes",
+          "color": "326CE5"
+        },
+        {
+          "label": "Docker",
+          "logo": "docker",
+          "color": "2496ED"
+        },
+        {
+          "label": "Terraform",
+          "logo": "terraform",
+          "color": "844FBA"
+        }
+      ]
+    },
+    {
+      "title": "🧰 Experienced",
+      "badges": [
+        {
+          "label": "TypeScript",
+          "logo": "typescript",
+          "color": "3178C6"
+        },
+        {
+          "label": "JavaScript",
+          "logo": "javascript",
+          "color": "F7DF1E"
+        },
+        {
+          "label": "Shell",
+          "logo": "gnubash",
+          "color": "4EAA25"
+        },
+        {
+          "label": "Node.js",
+          "logo": "nodedotjs",
+          "color": "339933"
+        },
+        {
+          "label": "Django",
+          "logo": "django",
+          "color": "092E20"
+        },
+        {
+          "label": "LangChain",
+          "logo": "langchain",
+          "color": "1C3C3C"
+        },
+        {
+          "label": "OpenSearch",
+          "logo": "opensearch",
+          "color": "005EB8"
+        },
+        {
+          "label": "MySQL",
+          "logo": "mysql",
+          "color": "4479A1"
+        },
+        {
+          "label": "AWS",
+          "logo": "amazonwebservices",
+          "color": "FF9900"
+        },
+        {
+          "label": "GitHub Actions",
+          "logo": "githubactions",
+          "color": "2088FF"
+        },
+        {
+          "label": "Airflow",
+          "logo": "apacheairflow",
+          "color": "017CEE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "roles": [
+    {
+      "org": "SK AX",
+      "title": "Cloud/Infra Engineer",
+      "team": "EnableX Platform팀",
+      "period": "2025.01 ~",
+      "current": true,
+      "work": [
+        {
+          "name": "클라우드 플랫폼 개발 (SK AX)",
+          "highlights": [
+            "Kubernetes 기반 클라우드 플랫폼 기능 개발 및 운영",
+            "Go — K8s Admission Webhook 단독 설계·배포, GPU 리소스 할당 자동 검증",
+            "Python — LLM Gateway 구축, RAG 파이프라인 노드 설계·개발, 모델 서빙 인프라"
+          ]
+        }
+      ]
+    },
+    {
+      "org": "(주) ACGR",
+      "title": "Backend Developer",
+      "period": "2022.07 ~ 2023.12",
+      "work": [
+        {
+          "name": "인적성 검사 플랫폼 (ACGR)",
+          "highlights": [
+            "오프라인 → 온라인 전환 플랫폼 단독 설계·개발·운영",
+            "NestJS, TypeScript, MariaDB — Java에서 Node.js로 이관, API 응답속도 개선",
+            "Docker CI/CD 도입으로 배포 시간 단축, ELK Stack 모니터링 구축"
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "period": "2014.03 ~ 2020.08",
+      "text": "중앙대학교 심리학과 졸업"
+    },
+    {
+      "period": "2021.04 ~ 2021.12",
+      "text": "언리얼 XR 개발자 과정 수료 (과기정통부 메디치센터)"
+    },
+    {
+      "period": "2022.03 ~ 2022.07",
+      "text": "코드캠프 백엔드 과정 수료 → 온클(Onkul) 기업협업"
+    },
+    {
+      "period": "2022.07 ~ 2023.12",
+      "text": "(주) ACGR 백엔드 개발자"
+    },
+    {
+      "period": "2024",
+      "text": "우리FIS 아카데미 AI 엔지니어링 3기 수료"
+    }
+  ]
+}

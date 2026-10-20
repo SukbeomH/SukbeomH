@@ -1,0 +1,32 @@
+{
+  "sections": [
+    "header",
+    "intro",
+    "stack",
+    "---",
+    "experience",
+    "---",
+    "projects",
+    "---",
+    "blog"
+  ],
+  "blog": {
+    "rss": "https://veritasgarage.tistory.com/rss",
+    "home": "https://veritasgarage.tistory.com",
+    "maxPosts": 5
+  },
+  "banners": {
+    "header": {
+      "type": "rounded",
+      "height": 150,
+      "color": "timeGradient",
+      "text": null,
+      "section": "header",
+      "reversal": "false",
+      "desc": null,
+      "fontAlignY": 45,
+      "descAlignY": 80,
+      "descSize": 20
+    }
+  }
+}

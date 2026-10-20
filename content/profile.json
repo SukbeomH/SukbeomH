@@ -1,0 +1,23 @@
+{
+  "name": "홍석범",
+  "username": "SukbeomH",
+  "role": "Cloud · AI Platform Engineer",
+  "intro": {
+    "greeting": "안녕하세요, 홍석범입니다 👋",
+    "paragraphs": [
+      "**SK AX**에서 Kubernetes 기반 클라우드 플랫폼과 AI 인프라를 설계·개발하고 있습니다.",
+      "Go, Python으로 Admission Webhook, LLM Gateway, RAG Pipeline 등을 구축하며, 모델 서빙부터 에이전트 오케스트레이션까지 프로덕션 레벨의 AI 플랫폼을 만들고 있습니다.",
+      "심리학에서 시작해 백엔드 → AI → 클라우드 인프라로 영역을 넓혀왔습니다."
+    ],
+    "focus": [
+      "LLM Serving Infrastructure",
+      "RAG Pipeline 최적화",
+      "AI Agent Orchestration"
+    ]
+  },
+  "contact": {
+    "email": "brent93.dev@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sukbeomh",
+    "blog": "https://veritasgarage.tistory.com"
+  }
+}

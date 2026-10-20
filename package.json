@@ -1,17 +1,13 @@
 {
-  "name": "blog_crawler_github",
-  "version": "1.0.0",
-  "description": "GitHub profile README auto-updater",
-  "main": "src/index.js",
+  "name": "sukbeomh-profile",
+  "private": true,
+  "description": "GitHub profile README generator (zero dependencies)",
   "type": "module",
+  "engines": { "node": ">=22" },
   "scripts": {
-    "start": "node src/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ejs": "^5.0.1",
-    "rss-parser": "^3.13.0"
+    "build": "node src/cli.js",
+    "preview": "node src/cli.js --dry-run",
+    "check": "node src/cli.js --check",
+    "test": "node --test \"test/*.test.js\""
   }
 }
