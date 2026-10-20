@@ -4,14 +4,14 @@
       "title": "⚡ Primary",
       "badges": [
         {
-          "label": "Go",
-          "logo": "go",
-          "color": "00ADD8"
-        },
-        {
           "label": "Python",
           "logo": "python",
           "color": "3776AB"
+        },
+        {
+          "label": "Go",
+          "logo": "go",
+          "color": "00ADD8"
         },
         {
           "label": "Kubernetes",
@@ -31,32 +31,12 @@
       ]
     },
     {
-      "title": "🧰 Experienced",
+      "title": "🤖 AI / Data",
       "badges": [
         {
-          "label": "TypeScript",
-          "logo": "typescript",
-          "color": "3178C6"
-        },
-        {
-          "label": "JavaScript",
-          "logo": "javascript",
-          "color": "F7DF1E"
-        },
-        {
-          "label": "Shell",
-          "logo": "gnubash",
-          "color": "4EAA25"
-        },
-        {
-          "label": "Node.js",
-          "logo": "nodedotjs",
-          "color": "339933"
-        },
-        {
-          "label": "Django",
-          "logo": "django",
-          "color": "092E20"
+          "label": "LangGraph",
+          "logo": "langgraph",
+          "color": "1C3C3C"
         },
         {
           "label": "LangChain",
@@ -64,18 +44,57 @@
           "color": "1C3C3C"
         },
         {
+          "label": "FastAPI",
+          "logo": "fastapi",
+          "color": "009688"
+        },
+        {
           "label": "OpenSearch",
           "logo": "opensearch",
           "color": "005EB8"
         },
         {
-          "label": "MySQL",
-          "logo": "mysql",
-          "color": "4479A1"
+          "label": "SQLite",
+          "logo": "sqlite",
+          "color": "003B57"
+        },
+        {
+          "label": "Claude Code",
+          "logo": "claude",
+          "color": "D97757"
+        }
+      ]
+    },
+    {
+      "title": "🧰 Also",
+      "badges": [
+        {
+          "label": "TypeScript",
+          "logo": "typescript",
+          "color": "3178C6"
+        },
+        {
+          "label": "Node.js",
+          "logo": "nodedotjs",
+          "color": "339933"
+        },
+        {
+          "label": "C++",
+          "logo": "cplusplus",
+          "color": "00599C"
+        },
+        {
+          "label": "Shell",
+          "logo": "gnubash",
+          "color": "4EAA25"
+        },
+        {
+          "label": "Proxmox",
+          "logo": "proxmox",
+          "color": "E57000"
         },
         {
           "label": "AWS",
-          "logo": "amazonwebservices",
           "color": "FF9900"
         },
         {
@@ -84,9 +103,8 @@
           "color": "2088FF"
         },
         {
-          "label": "Airflow",
-          "logo": "apacheairflow",
-          "color": "017CEE"
+          "label": "Klipper",
+          "color": "B12F36"
         }
       ]
     }

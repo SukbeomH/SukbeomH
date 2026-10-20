@@ -1,32 +1,134 @@
 {
   "featured": [
     {
-      "area": "🤖 AI / Agents",
+      "area": "🤖 AI · Agents",
       "items": [
         {
           "name": "HExoskeleton",
           "url": "https://github.com/SukbeomH/HExoskeleton",
-          "summary": "AI 에이전트 기반 개발 방법론 프레임워크 — 순수 bash + 마크다운, 307 commits",
-          "tags": []
+          "summary": "Claude Code 플러그인 마켓플레이스. front 세션 하나에 말하면 주제별 작업 세션으로 전달·생성·회수·병합하는 **router**와, SPEC → PLAN → EXECUTE → VERIFY 방법론 **hxsk**",
+          "tags": [
+            "bash",
+            "python stdlib",
+            "Claude Code"
+          ]
         },
         {
           "name": "RAG-Bench",
           "url": "https://github.com/SukbeomH/RAG-Bench",
-          "summary": "RAG 파이프라인 벤치마크 프레임워크 — 임베딩 모델/PDF 파서/검색 전략 비교, 287 commits",
-          "tags": []
+          "summary": "한국어 PDF RAG 파이프라인 정량 평가. PDF 파서(OmniDocBench)·Dense/Sparse 임베딩·리랭커(RAGAS)를 비교해 프로덕션 조합 선정",
+          "tags": [
+            "LangGraph",
+            "uv workspace",
+            "RAGAS"
+          ]
         },
         {
-          "name": "Woodaeri (우대리)",
-          "url": "https://github.com/woori-fisa-ai-final/AI-Chat-Bot-Proj",
-          "summary": "RAG 챗봇 대직원 서비스 — 우리 FIS 아카데미 3기 최종 우승",
+          "name": "bok-economic-analyst",
+          "url": "https://github.com/SukbeomH/bok-economic-analyst",
+          "summary": "Supervisor/Researcher/Analyst 멀티 에이전트 경제 분석. RAG + 웹 + KOSIS 근거 수집, 출처 추적, 차트 자동 생성",
           "tags": [
-            "Django",
-            "OpenSearch",
-            "Airflow"
+            "LangGraph",
+            "FAISS",
+            "Streamlit"
           ]
+        },
+        {
+          "name": "Acta-Ergo-Sum",
+          "url": "https://github.com/SukbeomH/Acta-Ergo-Sum",
+          "summary": "GitHub 활동을 LLM 친화적 Markdown 지식베이스로 수집하고 레포를 딥 분석하는 CLI · MCP 서버",
+          "tags": [
+            "Python",
+            "MCP"
+          ]
+        },
+        {
+          "name": "chat-ui",
+          "url": "https://github.com/SukbeomH/chat-ui",
+          "summary": "HuggingChat 기반 채팅 UI 한국어판. 보안 프록시 핸들러, 멀티모달 첨부, 대화·디버그 CSV export",
+          "tags": [
+            "SvelteKit",
+            "TypeScript"
+          ],
+          "upstream": "huggingface/chat-ui"
+        }
+      ]
+    },
+    {
+      "area": "🖨️ 3D Printing · Firmware",
+      "items": [
+        {
+          "name": "klipperized-LLL-plus-buffer",
+          "url": "https://github.com/SukbeomH/klipperized-LLL-plus-buffer",
+          "summary": "Mellow/Fly LLL Plus 버퍼를 Klipper MCU로 구동. extruder_stepper 동기화 + 홀센서 중앙 유지, 극단 구간은 TMC VACTUAL로 복구",
+          "tags": [
+            "Klipper",
+            "Python",
+            "STM32"
+          ]
+        },
+        {
+          "name": "bdwidth",
+          "url": "https://github.com/SukbeomH/bdwidth",
+          "summary": "필라멘트 폭·이동 센서 Klipper 포크. USB 프레임 파싱 강화, 이상치 필터, 이상치 발생 시 CCD 파형 진단 스냅샷",
+          "tags": [
+            "Klipper",
+            "Python"
+          ],
+          "upstream": "markniu/bdwidth"
+        },
+        {
+          "name": "KlipperPLR",
+          "url": "https://github.com/SukbeomH/KlipperPLR",
+          "summary": "Klipper 정전 복구. G-code 파싱 견고화",
+          "tags": [
+            "Klipper"
+          ],
+          "upstream": "Yumi-Lab/YUMI_PLR"
+        },
+        {
+          "name": "CxChanger",
+          "url": "https://github.com/SukbeomH/CxChanger",
+          "summary": "저비용 예열식 다중 핫엔드 툴체인저. 한/영 문서·Klipper 설정 번역과 용어 정리",
+          "tags": [
+            "Klipper",
+            "OrcaSlicer"
+          ],
+          "upstream": "cx330-TXY/CxChanger"
+        },
+        {
+          "name": "CrosspointFork",
+          "url": "https://github.com/SukbeomH/CrosspointFork",
+          "summary": "Xteink X4 e-paper 리더 한국어 펌웨어. UI 320+ 문자열 번역, 한글 폰트, CJK 줄바꿈, 커뮤니티 포크 기능 통합",
+          "tags": [
+            "C++",
+            "ESP32"
+          ],
+          "upstream": "crosspoint-reader/crosspoint-reader"
         }
       ]
     }
   ],
-  "private": []
+  "private": [
+    {
+      "area": "📈 자동매매",
+      "summary": "증권사 API 기반 시트 주도 자동매매 데몬과 Windows 앱을 직접 실운영. 구현 에이전트와 독립 리뷰 세션을 분리하고 주문 경로는 fail-closed로 설계. 이와 별도로 point-in-time 투자 리서치·페이퍼 트레이딩 파이프라인과 이벤트 기반 퀀트 프레임워크를 연구"
+    },
+    {
+      "area": "🧠 에이전트 인프라",
+      "summary": "Obsidian 볼트를 원본으로 여러 에이전트 하네스(Claude Code·Codex·Gemini·Hermes 등)의 지침·스킬·메모리를 렌더링·배포하는 체계, 프로젝트 설정형 브라우저 QA 러너, 출처·인용을 불변 리비전으로 추적하는 증거 저장소, 오케스트레이터 + 샌드박스 승인 흐름 PoC"
+    },
+    {
+      "area": "📚 지식 운영",
+      "summary": "NotebookLM을 출처 기반 합성 계층으로, Obsidian을 canonical 저장소로 두는 리서치 운영 모델과 OKF/OWL 관점의 지식베이스 구조화"
+    },
+    {
+      "area": "🏠 홈랩 · 자동화",
+      "summary": "Proxmox 홈랩 운영 워크스페이스(API 래퍼·상태 점검·스토리지·원격 접근)와 Home Assistant 연동, Android 컨테이너 기반 모바일 앱 UI 자동화 CLI"
+    },
+    {
+      "area": "🎮 기타",
+      "summary": "Godot 4 퍼즐 게임 데모(역방향 레벨 생성기·난이도 측정), Steam Controller 2 햅틱 출력 리서치"
+    }
+  ]
 }
