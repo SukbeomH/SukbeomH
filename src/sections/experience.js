@@ -1,14 +1,14 @@
-function role(r) {
-  const head = `### ${r.org} · ${r.title}${r.current ? " — **Now**" : ""}\n<sub>${r.period}${r.team ? ` · ${r.team}` : ""}</sub>`;
-  const work = (r.work ?? []).map((w) => [`**${w.name}**`, ...w.highlights.map((h) => `- ${h}`)].join("\n"));
-  return [head, ...work].join("\n\n");
-}
+const role = (r) => `- **${r.period}** · ${r.org} · ${r.title}${r.team ? ` (${r.team})` : ""}`;
 
-export default function experience({ experience }) {
+export default function experience({ experience, profile }) {
   const history = experience.history.map((h) => `- **${h.period}** · ${h.text}`).join("\n");
+  const more = profile.contact.linkedin ? `<sub>상세 경력은 [LinkedIn](${profile.contact.linkedin})</sub>` : null;
   return [
-    "## 💼 Experience",
-    ...experience.roles.map(role),
+    "## 💼 Career",
+    experience.roles.map(role).join("\n"),
     `<details>\n<summary><b>📖 History</b></summary>\n\n${history}\n\n</details>`,
-  ].join("\n\n");
+    more,
+  ]
+    .filter(Boolean)
+    .join("\n\n");
 }

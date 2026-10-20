@@ -4,13 +4,13 @@ function featured(p) {
   return `- [**${p.name}**](${p.url})${fork} — ${p.summary}${tags}`;
 }
 
+const heading = (area, lead) => `### ${area}${lead ? ` — ${lead}` : ""}`;
+
 export default function projects({ projects }) {
-  const groups = projects.featured.map((g) => [`### ${g.area}`, g.items.map(featured).join("\n")].join("\n\n"));
+  const groups = projects.featured.map((g) => [heading(g.area, g.lead), g.items.map(featured).join("\n")].join("\n\n"));
   const priv = projects.private.length
-    ? [
-        "### 🔒 Private work\n\n<sub>비공개 저장소는 이름 없이 분야별로 요약합니다.</sub>\n",
-        projects.private.map((p) => `- **${p.area}** — ${p.summary}`).join("\n"),
-      ].join("\n")
+    ? [heading("🔒 Private work", "이름 없이 분야만"), projects.private.map((p) => `- **${p.area}** — ${p.summary}`).join("\n")].join("\n\n")
     : null;
-  return ["## 🧪 Side Projects", ...groups, priv].filter(Boolean).join("\n\n");
+  const interests = projects.interests?.length ? `📌 **Interests** · ${projects.interests.join(" · ")}` : null;
+  return ["## 🧪 Projects & Interests", ...groups, priv, interests].filter(Boolean).join("\n\n");
 }

@@ -2,6 +2,7 @@
   "featured": [
     {
       "area": "🤖 AI · Agents",
+      "lead": "에이전트를 팀처럼 굴리기",
       "items": [
         {
           "name": "HExoskeleton",
@@ -58,6 +59,7 @@
     },
     {
       "area": "🖨️ 3D Printing · Firmware",
+      "lead": "손에 잡히는 하드웨어",
       "items": [
         {
           "name": "klipperized-LLL-plus-buffer",
@@ -124,5 +126,15 @@
       "area": "🎮 기타",
       "summary": "Godot 4 퍼즐 게임 데모(역방향 레벨 생성기·난이도 지표, 헤드리스 테스트 89건, 150레벨 자동 생성·검증), Steam Controller 2 HD 햅틱을 위한 햅틱 변환 계층 리서치(C#/.NET HID), human-in-the-loop 이미지 상품검색 PoC"
     }
+  ],
+  "interests": [
+    "AI agent orchestration",
+    "RAG evaluation",
+    "Fail-closed automation",
+    "Homelab (Proxmox)",
+    "Klipper",
+    "e-paper",
+    "Quant research",
+    "Knowledge ops (Obsidian)"
   ]
 }

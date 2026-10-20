@@ -7,10 +7,10 @@ GitHub 프로필 README(`README.md`)는 **생성물**입니다. 직접 고치지
 ```
 content/            사람이 편집하는 내용 (JSON)
   profile.json        이름·역할·소개·현재 관심사·연락처
-  stack.json          기술 스택 배지 그룹
-  experience.json     경력(회사·담당 업무)과 History
-  projects.json       사이드 프로젝트(공개 레포 링크) + 비공개 작업 분야별 요약
-config/site.json    섹션 순서("---" = 구분선), 블로그 RSS, 배너 스타일
+  stack.json          What I build 기능 목록(capabilities) + 기술 스택 배지 그룹
+  experience.json     경력(회사·직함·기간)과 History. 업무 내용은 싣지 않는다
+  projects.json       공개 프로젝트(그룹별 lead 문구) + 비공개 작업 분야별 요약 + interests
+config/site.json    섹션 순서("---" = 구분선): header → intro → stack → projects → experience → blog, 블로그 RSS, 배너 스타일
 src/
   cli.js              진입점 (build / --dry-run / --check / --feed-file / --no-feed)
   render.js           섹션 조립

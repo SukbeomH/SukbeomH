@@ -1,4 +1,22 @@
 {
+  "capabilities": [
+    {
+      "title": "Kubernetes 플랫폼",
+      "text": "Admission Webhook(Go), Helm · ArgoCD 배포, GPU 자원 할당 제어, Lease API 분산 락"
+    },
+    {
+      "title": "LLM 애플리케이션",
+      "text": "RAG 파이프라인(LangGraph · Qdrant · OpenSearch), 검색 품질 평가(LLM Judge + Human feedback), 프롬프트 반복 최적화와 출력 제어, LiteLLM 프록시"
+    },
+    {
+      "title": "검증·자동화",
+      "text": "Playwright E2E(오프라인 번들), 정적 분석 빌드 게이트, CI/CD 설계, fail-closed 운영 자동화"
+    },
+    {
+      "title": "프런트엔드",
+      "text": "React · TypeScript 반응형 화면"
+    }
+  ],
   "groups": [
     {
       "title": "⚡ Primary",
@@ -76,64 +94,6 @@
           "label": "Claude Code",
           "logo": "claude",
           "color": "D97757"
-        }
-      ]
-    },
-    {
-      "title": "🧰 Also",
-      "badges": [
-        {
-          "label": "TypeScript",
-          "logo": "typescript",
-          "color": "3178C6"
-        },
-        {
-          "label": "Node.js",
-          "logo": "nodedotjs",
-          "color": "339933"
-        },
-        {
-          "label": "C++",
-          "logo": "cplusplus",
-          "color": "00599C"
-        },
-        {
-          "label": "Shell",
-          "logo": "gnubash",
-          "color": "4EAA25"
-        },
-        {
-          "label": "Proxmox",
-          "logo": "proxmox",
-          "color": "E57000"
-        },
-        {
-          "label": "AWS",
-          "color": "FF9900"
-        },
-        {
-          "label": "GitHub Actions",
-          "logo": "githubactions",
-          "color": "2088FF"
-        },
-        {
-          "label": "ArgoCD",
-          "logo": "argo",
-          "color": "EF7B4D"
-        },
-        {
-          "label": "Redis",
-          "logo": "redis",
-          "color": "FF4438"
-        },
-        {
-          "label": "MongoDB",
-          "logo": "mongodb",
-          "color": "47A248"
-        },
-        {
-          "label": "Klipper",
-          "color": "B12F36"
         }
       ]
     }
