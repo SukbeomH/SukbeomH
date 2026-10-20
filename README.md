@@ -4,13 +4,13 @@
 
 ## 안녕하세요, 홍석범입니다 👋
 
-**SK AX**에서 Kubernetes 기반 클라우드 플랫폼과 AI 인프라를 설계·개발하고 있습니다. Go와 Python으로 Admission Webhook, LLM Gateway, RAG 파이프라인을 만들었습니다.
+**SK AX AI Innovation Lab**에서 Kubernetes 위에 AI 플랫폼을 만듭니다. Go로 GPU 할당량을 검증하는 Admission Webhook을, Python으로 RAG 지식베이스 API와 LangGraph 문서 처리 파이프라인을 설계·운영했고, 멀티테넌트 RAG SaaS의 보안감사 대응과 CI 체계를 정비했습니다.
 
-업무 밖에서는 **AI 코딩 에이전트를 팀처럼 운영하는 방법**을 실험합니다. 세션 라우팅과 SPEC → PLAN → EXECUTE → VERIFY 워크플로우, Obsidian 지식 백본, 구현과 리뷰를 분리한 교차 검증으로 실운영 자동매매 데몬, 홈랩 운영 도구, 3D 프린터 펌웨어 플러그인까지 직접 만들고 운영합니다.
+업무 밖에서는 **AI 코딩 에이전트를 팀처럼 운영하는 방법**을 실험합니다. 세션 라우팅과 SPEC → PLAN → EXECUTE → VERIFY 워크플로우, Obsidian 지식 백본, 구현과 리뷰를 분리한 교차 검증이 도구입니다. 이 방식으로 실운영 자동매매 데몬, 홈랩 운영 도구, 3D 프린터 펌웨어 플러그인을 직접 만들고 운영합니다.
 
 불확실하면 멈추는 **fail-closed** 설계와, 실행 결과로 증명하는 검증을 원칙으로 삼습니다. 심리학에서 시작해 백엔드 → AI → 클라우드 인프라로 영역을 넓혀왔습니다.
 
-🔭 **Now** · LLM Serving & AI Platform · AI Agent Orchestration · Fail-closed Automation
+🔭 **Now** · RAG Quality Evaluation & Serving · Kubernetes AI Infra (GPU · Webhook · Helm) · AI Agent Orchestration · Fail-closed Automation
 
 📫 [Email](mailto:brent93.dev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/sukbeomh) · [Blog](https://veritasgarage.tistory.com)
 
@@ -20,6 +20,7 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
 
 ### 🤖 AI / Data
@@ -27,7 +28,9 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
 ![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-6366F1?style=for-the-badge&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
@@ -40,19 +43,35 @@
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Klipper](https://img.shields.io/badge/Klipper-B12F36?style=for-the-badge&logoColor=white)
 
 ---
 
 ## 💼 Experience
 
-### SK AX · Cloud/Infra Engineer — **Now**
-<sub>2025.01 ~ · EnableX Platform팀</sub>
+### SK AX · Cloud · AI Platform Engineer — **Now**
+<sub>2025.01 ~ · AI Innovation Lab</sub>
 
-**Kubernetes 기반 클라우드·AI 플랫폼**
-- Kubernetes 기반 클라우드 플랫폼 기능 개발 및 운영
-- Go — K8s Admission Webhook 단독 설계·배포, GPU 리소스 할당 자동 검증
-- Python — LLM Gateway 구축, RAG 파이프라인 노드 설계·개발, 모델 서빙 인프라
+**GPU Pool 기반 Kubernetes Admission Webhook (Go)**
+- Mutating + Validating 웹훅 단독 설계·개발: GPU Pool 라벨 기반 할당량 검증, Node Affinity 자동 주입(JSON Patch), MIG 프로파일 지원
+- Kubernetes Lease API로 프로젝트별 분산 락을 구현해 멀티 레플리카 환경의 할당량 경쟁 상태 제거
+- cert-manager / 정적 인증서 선택형 Helm 차트, ArgoCD sync-wave 배포, Mock Core API 기반 통합 테스트(95+ 시나리오)·커버리지 80%+
+
+**지식베이스(RAG) API 서버 · 문서 처리 파이프라인 (Python)**
+- LangGraph 기반 K8s Job 파이프라인에 PaddleOCR PPStructureV3 파싱 Provider 추가(CPU/GPU 이미지, env 기반 설정), 문서 분류·메타데이터 추출 노드를 fan-out으로 분리해 문서당 LLM 비용 20% 절감
+- 검색 품질 평가 체계 구축: 검색 로그 수집 → LLM Judge 평가 + Human feedback → eval export/import, 분석-개선 에이전트 스킬
+- 교차 언어 쿼리 자동 번역으로 검색 적중률 평균 +23.8pp, Qdrant 컬렉션 차원·모델 불일치 사전 검증(fail-fast), LangChain 1.x 마이그레이션
+
+**멀티테넌트 RAG SaaS 플랫폼 안정화 (Spring Boot · React · Qdrant · Neo4j)**
+- SAST 보안감사 대응: 규칙 문서화, 전건 검증·조치·소명으로 자사 코드 고위험 항목 0건 달성, SpotBugs·XSS 린터를 빌드 단계 게이트로 편입
+- 다인 협업 전환: 브랜치 전략·PR 템플릿·CI PR 트리거 정립, 공개 API rateLimit을 Redis 카운터로 실제 집행, Helm 설치 경로·레지스트리 분리
+- e2e 검증 러너북 작성·시행, 설계 문서를 실구현 기준으로 전면 현행화 (9일간 146 커밋)
+
+**LLM 보안 테스트베드**
+- LiteLLM 커스텀 핸들러로 외부 보안 API를 경유하는 보안 프록시 구성, HuggingChat 기반 UI 커스터마이징, Helm·Packer 배포
 
 ### (주) ACGR · Backend Developer
 <sub>2022.07 ~ 2023.12</sub>
@@ -65,7 +84,7 @@
 <details>
 <summary><b>📖 History</b></summary>
 
-- **2024** · 우리FIS 아카데미 AI 엔지니어링 3기 수료 — 최종 프로젝트 **우대리**(RAG 대직원 챗봇) 최종 우승
+- **2024** · 우리FIS 아카데미 AI 엔지니어링 3기 수료 — 최종 프로젝트 **우대리**(RAG 대직원 챗봇, Django·OpenSearch·Airflow) 최종 우승
 - **2022.07 ~ 2023.12** · (주) ACGR 백엔드 개발자
 - **2022.03 ~ 2022.07** · 코드캠프 백엔드 과정 수료 → 온클(Onkul) 기업협업
 - **2021.04 ~ 2021.12** · 언리얼 XR 개발자 과정 수료 (과기정통부 메디치센터)

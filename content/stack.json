@@ -24,6 +24,11 @@
           "color": "2496ED"
         },
         {
+          "label": "Helm",
+          "logo": "helm",
+          "color": "0F1689"
+        },
+        {
           "label": "Terraform",
           "logo": "terraform",
           "color": "844FBA"
@@ -49,9 +54,18 @@
           "color": "009688"
         },
         {
+          "label": "Qdrant",
+          "logo": "qdrant",
+          "color": "DC244C"
+        },
+        {
           "label": "OpenSearch",
           "logo": "opensearch",
           "color": "005EB8"
+        },
+        {
+          "label": "LiteLLM",
+          "color": "6366F1"
         },
         {
           "label": "SQLite",
@@ -101,6 +115,21 @@
           "label": "GitHub Actions",
           "logo": "githubactions",
           "color": "2088FF"
+        },
+        {
+          "label": "ArgoCD",
+          "logo": "argo",
+          "color": "EF7B4D"
+        },
+        {
+          "label": "Redis",
+          "logo": "redis",
+          "color": "FF4438"
+        },
+        {
+          "label": "MongoDB",
+          "logo": "mongodb",
+          "color": "47A248"
         },
         {
           "label": "Klipper",

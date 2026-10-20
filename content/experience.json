@@ -2,17 +2,39 @@
   "roles": [
     {
       "org": "SK AX",
-      "title": "Cloud/Infra Engineer",
-      "team": "EnableX Platform팀",
+      "title": "Cloud · AI Platform Engineer",
+      "team": "AI Innovation Lab",
       "period": "2025.01 ~",
       "current": true,
       "work": [
         {
-          "name": "Kubernetes 기반 클라우드·AI 플랫폼",
+          "name": "GPU Pool 기반 Kubernetes Admission Webhook (Go)",
           "highlights": [
-            "Kubernetes 기반 클라우드 플랫폼 기능 개발 및 운영",
-            "Go — K8s Admission Webhook 단독 설계·배포, GPU 리소스 할당 자동 검증",
-            "Python — LLM Gateway 구축, RAG 파이프라인 노드 설계·개발, 모델 서빙 인프라"
+            "Mutating + Validating 웹훅 단독 설계·개발: GPU Pool 라벨 기반 할당량 검증, Node Affinity 자동 주입(JSON Patch), MIG 프로파일 지원",
+            "Kubernetes Lease API로 프로젝트별 분산 락을 구현해 멀티 레플리카 환경의 할당량 경쟁 상태 제거",
+            "cert-manager / 정적 인증서 선택형 Helm 차트, ArgoCD sync-wave 배포, Mock Core API 기반 통합 테스트(95+ 시나리오)·커버리지 80%+"
+          ]
+        },
+        {
+          "name": "지식베이스(RAG) API 서버 · 문서 처리 파이프라인 (Python)",
+          "highlights": [
+            "LangGraph 기반 K8s Job 파이프라인에 PaddleOCR PPStructureV3 파싱 Provider 추가(CPU/GPU 이미지, env 기반 설정), 문서 분류·메타데이터 추출 노드를 fan-out으로 분리해 문서당 LLM 비용 20% 절감",
+            "검색 품질 평가 체계 구축: 검색 로그 수집 → LLM Judge 평가 + Human feedback → eval export/import, 분석-개선 에이전트 스킬",
+            "교차 언어 쿼리 자동 번역으로 검색 적중률 평균 +23.8pp, Qdrant 컬렉션 차원·모델 불일치 사전 검증(fail-fast), LangChain 1.x 마이그레이션"
+          ]
+        },
+        {
+          "name": "멀티테넌트 RAG SaaS 플랫폼 안정화 (Spring Boot · React · Qdrant · Neo4j)",
+          "highlights": [
+            "SAST 보안감사 대응: 규칙 문서화, 전건 검증·조치·소명으로 자사 코드 고위험 항목 0건 달성, SpotBugs·XSS 린터를 빌드 단계 게이트로 편입",
+            "다인 협업 전환: 브랜치 전략·PR 템플릿·CI PR 트리거 정립, 공개 API rateLimit을 Redis 카운터로 실제 집행, Helm 설치 경로·레지스트리 분리",
+            "e2e 검증 러너북 작성·시행, 설계 문서를 실구현 기준으로 전면 현행화 (9일간 146 커밋)"
+          ]
+        },
+        {
+          "name": "LLM 보안 테스트베드",
+          "highlights": [
+            "LiteLLM 커스텀 핸들러로 외부 보안 API를 경유하는 보안 프록시 구성, HuggingChat 기반 UI 커스터마이징, Helm·Packer 배포"
           ]
         }
       ]
@@ -36,7 +58,7 @@
   "history": [
     {
       "period": "2024",
-      "text": "우리FIS 아카데미 AI 엔지니어링 3기 수료 — 최종 프로젝트 **우대리**(RAG 대직원 챗봇) 최종 우승"
+      "text": "우리FIS 아카데미 AI 엔지니어링 3기 수료 — 최종 프로젝트 **우대리**(RAG 대직원 챗봇, Django·OpenSearch·Airflow) 최종 우승"
     },
     {
       "period": "2022.07 ~ 2023.12",

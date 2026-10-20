@@ -5,12 +5,13 @@
   "intro": {
     "greeting": "안녕하세요, 홍석범입니다 👋",
     "paragraphs": [
-      "**SK AX**에서 Kubernetes 기반 클라우드 플랫폼과 AI 인프라를 설계·개발하고 있습니다. Go와 Python으로 Admission Webhook, LLM Gateway, RAG 파이프라인을 만들었습니다.",
-      "업무 밖에서는 **AI 코딩 에이전트를 팀처럼 운영하는 방법**을 실험합니다. 세션 라우팅과 SPEC → PLAN → EXECUTE → VERIFY 워크플로우, Obsidian 지식 백본, 구현과 리뷰를 분리한 교차 검증으로 실운영 자동매매 데몬, 홈랩 운영 도구, 3D 프린터 펌웨어 플러그인까지 직접 만들고 운영합니다.",
+      "**SK AX AI Innovation Lab**에서 Kubernetes 위에 AI 플랫폼을 만듭니다. Go로 GPU 할당량을 검증하는 Admission Webhook을, Python으로 RAG 지식베이스 API와 LangGraph 문서 처리 파이프라인을 설계·운영했고, 멀티테넌트 RAG SaaS의 보안감사 대응과 CI 체계를 정비했습니다.",
+      "업무 밖에서는 **AI 코딩 에이전트를 팀처럼 운영하는 방법**을 실험합니다. 세션 라우팅과 SPEC → PLAN → EXECUTE → VERIFY 워크플로우, Obsidian 지식 백본, 구현과 리뷰를 분리한 교차 검증이 도구입니다. 이 방식으로 실운영 자동매매 데몬, 홈랩 운영 도구, 3D 프린터 펌웨어 플러그인을 직접 만들고 운영합니다.",
       "불확실하면 멈추는 **fail-closed** 설계와, 실행 결과로 증명하는 검증을 원칙으로 삼습니다. 심리학에서 시작해 백엔드 → AI → 클라우드 인프라로 영역을 넓혀왔습니다."
     ],
     "focus": [
-      "LLM Serving & AI Platform",
+      "RAG Quality Evaluation & Serving",
+      "Kubernetes AI Infra (GPU · Webhook · Helm)",
       "AI Agent Orchestration",
       "Fail-closed Automation"
     ]
