@@ -98,19 +98,18 @@
 
 ### 🤖 AI · Agents
 
-- [**HExoskeleton**](https://github.com/SukbeomH/HExoskeleton) — Claude Code 플러그인 마켓플레이스. front 세션 하나에 말하면 주제별 작업 세션으로 전달·생성·회수·병합하는 **router**와, SPEC → PLAN → EXECUTE → VERIFY 방법론 **hxsk** <sub>`bash` `python stdlib` `Claude Code`</sub>
-- [**RAG-Bench**](https://github.com/SukbeomH/RAG-Bench) — 한국어 PDF RAG 파이프라인 정량 평가. PDF 파서(OmniDocBench)·Dense/Sparse 임베딩·리랭커(RAGAS)를 비교해 프로덕션 조합 선정 <sub>`LangGraph` `uv workspace` `RAGAS`</sub>
-- [**bok-economic-analyst**](https://github.com/SukbeomH/bok-economic-analyst) — Supervisor/Researcher/Analyst 멀티 에이전트 경제 분석. RAG + 웹 + KOSIS 근거 수집, 출처 추적, 차트 자동 생성 <sub>`LangGraph` `FAISS` `Streamlit`</sub>
-- [**Acta-Ergo-Sum**](https://github.com/SukbeomH/Acta-Ergo-Sum) — GitHub 활동을 LLM 친화적 Markdown 지식베이스로 수집하고 레포를 딥 분석하는 CLI · MCP 서버 <sub>`Python` `MCP`</sub>
-- [**chat-ui**](https://github.com/SukbeomH/chat-ui) <sub>fork of [huggingface/chat-ui](https://github.com/huggingface/chat-ui)</sub> — HuggingChat 기반 채팅 UI 한국어판. 보안 프록시 핸들러, 멀티모달 첨부, 대화·디버그 CSV export <sub>`SvelteKit` `TypeScript`</sub>
+- [**HExoskeleton**](https://github.com/SukbeomH/HExoskeleton) — Claude Code 플러그인 마켓플레이스. front 세션 하나에 말하면 주제별 작업 세션으로 전달·생성·회수·병합하는 **router**와, SPEC → PLAN → EXECUTE → VERIFY 방법론 **hxsk**(Codex·Hermes 호환). 검증 단계 동시 실행, 승인·거부 결정의 front 문맥 반영 <sub>`bash` `python stdlib` `Claude Code`</sub>
+- [**RAG-Bench**](https://github.com/SukbeomH/RAG-Bench) — 한국어 PDF RAG 정량 벤치마크 모노레포. PDF 파서 8종(OmniDocBench NED/TEDS)과 임베딩·검색·리랭커 조합 60가지(RAGAS)를 비교해 프로덕션 조합 선정, K8s 병렬 파싱, 단위 테스트 77개 <sub>`LangGraph` `uv workspace` `RAGAS` `K8s`</sub>
+- [**bok-economic-analyst**](https://github.com/SukbeomH/bok-economic-analyst) — Supervisor/Researcher/Analyst 멀티 에이전트 경제 분석. PDF RAG + 웹 검색 + KOSIS 통계 API로 근거 수집, 출처 추적, 대화 히스토리 주입, plotly 차트 자동 생성 <sub>`LangGraph` `FAISS` `Streamlit`</sub>
+- [**Acta-Ergo-Sum**](https://github.com/SukbeomH/Acta-Ergo-Sum) — GitHub 활동(추출기 13종)을 LLM 친화적 Markdown 지식베이스로 수집하고 레포를 딥 분석하는 CLI · MCP 서버. pytest 83개, PyPI 배포 설정 <sub>`Python` `Typer` `FastMCP`</sub>
+- [**chat-ui**](https://github.com/SukbeomH/chat-ui) <sub>fork of [huggingface/chat-ui](https://github.com/huggingface/chat-ui)</sub> — HuggingChat 기반 채팅 UI 한국어판. 보안 프록시 검증 핸들러, 멀티모달 첨부, 보안 API 로깅, 대화·디버그 CSV export <sub>`SvelteKit` `TypeScript`</sub>
 
 ### 🖨️ 3D Printing · Firmware
 
 - [**klipperized-LLL-plus-buffer**](https://github.com/SukbeomH/klipperized-LLL-plus-buffer) — Mellow/Fly LLL Plus 버퍼를 Klipper MCU로 구동. extruder_stepper 동기화 + 홀센서 중앙 유지, 극단 구간은 TMC VACTUAL로 복구 <sub>`Klipper` `Python` `STM32`</sub>
-- [**bdwidth**](https://github.com/SukbeomH/bdwidth) <sub>fork of [markniu/bdwidth](https://github.com/markniu/bdwidth)</sub> — 필라멘트 폭·이동 센서 Klipper 포크. USB 프레임 파싱 강화, 이상치 필터, 이상치 발생 시 CCD 파형 진단 스냅샷 <sub>`Klipper` `Python`</sub>
-- [**KlipperPLR**](https://github.com/SukbeomH/KlipperPLR) <sub>fork of [Yumi-Lab/YUMI_PLR](https://github.com/Yumi-Lab/YUMI_PLR)</sub> — Klipper 정전 복구. G-code 파싱 견고화 <sub>`Klipper`</sub>
+- [**bdwidth**](https://github.com/SukbeomH/bdwidth) <sub>fork of [markniu/bdwidth](https://github.com/markniu/bdwidth)</sub> — 필라멘트 폭·이동 센서 Klipper 포크. USB 프레임 검증 강화, 이상치 필터, 유량 스케일링·모션 상태, 이상치 발생 시 CCD 파형 진단 스냅샷 <sub>`Klipper` `Python`</sub>
 - [**CxChanger**](https://github.com/SukbeomH/CxChanger) <sub>fork of [cx330-TXY/CxChanger](https://github.com/cx330-TXY/CxChanger)</sub> — 저비용 예열식 다중 핫엔드 툴체인저. 한/영 문서·Klipper 설정 번역과 용어 정리 <sub>`Klipper` `OrcaSlicer`</sub>
-- [**CrosspointFork**](https://github.com/SukbeomH/CrosspointFork) <sub>fork of [crosspoint-reader/crosspoint-reader](https://github.com/crosspoint-reader/crosspoint-reader)</sub> — Xteink X4 e-paper 리더 한국어 펌웨어. UI 320+ 문자열 번역, 한글 폰트, CJK 줄바꿈, 커뮤니티 포크 기능 통합 <sub>`C++` `ESP32`</sub>
+- [**CrosspointFork**](https://github.com/SukbeomH/CrosspointFork) <sub>fork of [crosspoint-reader/crosspoint-reader](https://github.com/crosspoint-reader/crosspoint-reader)</sub> — Xteink X4 e-paper 리더 한국어 펌웨어. 한글 폰트 SD 스트리밍, CJK 줄바꿈, TXT 챕터 자동 감지, 도서별 설정, CMake 호스트 테스트 5종과 릴리스 CI, 업스트림 1.2.0 병합 <sub>`C++` `ESP32` `PlatformIO`</sub>
 
 ### 🔒 Private work
 

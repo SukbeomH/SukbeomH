@@ -6,7 +6,7 @@
         {
           "name": "HExoskeleton",
           "url": "https://github.com/SukbeomH/HExoskeleton",
-          "summary": "Claude Code 플러그인 마켓플레이스. front 세션 하나에 말하면 주제별 작업 세션으로 전달·생성·회수·병합하는 **router**와, SPEC → PLAN → EXECUTE → VERIFY 방법론 **hxsk**",
+          "summary": "Claude Code 플러그인 마켓플레이스. front 세션 하나에 말하면 주제별 작업 세션으로 전달·생성·회수·병합하는 **router**와, SPEC → PLAN → EXECUTE → VERIFY 방법론 **hxsk**(Codex·Hermes 호환). 검증 단계 동시 실행, 승인·거부 결정의 front 문맥 반영",
           "tags": [
             "bash",
             "python stdlib",
@@ -16,17 +16,18 @@
         {
           "name": "RAG-Bench",
           "url": "https://github.com/SukbeomH/RAG-Bench",
-          "summary": "한국어 PDF RAG 파이프라인 정량 평가. PDF 파서(OmniDocBench)·Dense/Sparse 임베딩·리랭커(RAGAS)를 비교해 프로덕션 조합 선정",
+          "summary": "한국어 PDF RAG 정량 벤치마크 모노레포. PDF 파서 8종(OmniDocBench NED/TEDS)과 임베딩·검색·리랭커 조합 60가지(RAGAS)를 비교해 프로덕션 조합 선정, K8s 병렬 파싱, 단위 테스트 77개",
           "tags": [
             "LangGraph",
             "uv workspace",
-            "RAGAS"
+            "RAGAS",
+            "K8s"
           ]
         },
         {
           "name": "bok-economic-analyst",
           "url": "https://github.com/SukbeomH/bok-economic-analyst",
-          "summary": "Supervisor/Researcher/Analyst 멀티 에이전트 경제 분석. RAG + 웹 + KOSIS 근거 수집, 출처 추적, 차트 자동 생성",
+          "summary": "Supervisor/Researcher/Analyst 멀티 에이전트 경제 분석. PDF RAG + 웹 검색 + KOSIS 통계 API로 근거 수집, 출처 추적, 대화 히스토리 주입, plotly 차트 자동 생성",
           "tags": [
             "LangGraph",
             "FAISS",
@@ -36,16 +37,17 @@
         {
           "name": "Acta-Ergo-Sum",
           "url": "https://github.com/SukbeomH/Acta-Ergo-Sum",
-          "summary": "GitHub 활동을 LLM 친화적 Markdown 지식베이스로 수집하고 레포를 딥 분석하는 CLI · MCP 서버",
+          "summary": "GitHub 활동(추출기 13종)을 LLM 친화적 Markdown 지식베이스로 수집하고 레포를 딥 분석하는 CLI · MCP 서버. pytest 83개, PyPI 배포 설정",
           "tags": [
             "Python",
-            "MCP"
+            "Typer",
+            "FastMCP"
           ]
         },
         {
           "name": "chat-ui",
           "url": "https://github.com/SukbeomH/chat-ui",
-          "summary": "HuggingChat 기반 채팅 UI 한국어판. 보안 프록시 핸들러, 멀티모달 첨부, 대화·디버그 CSV export",
+          "summary": "HuggingChat 기반 채팅 UI 한국어판. 보안 프록시 검증 핸들러, 멀티모달 첨부, 보안 API 로깅, 대화·디버그 CSV export",
           "tags": [
             "SvelteKit",
             "TypeScript"
@@ -70,21 +72,12 @@
         {
           "name": "bdwidth",
           "url": "https://github.com/SukbeomH/bdwidth",
-          "summary": "필라멘트 폭·이동 센서 Klipper 포크. USB 프레임 파싱 강화, 이상치 필터, 이상치 발생 시 CCD 파형 진단 스냅샷",
+          "summary": "필라멘트 폭·이동 센서 Klipper 포크. USB 프레임 검증 강화, 이상치 필터, 유량 스케일링·모션 상태, 이상치 발생 시 CCD 파형 진단 스냅샷",
           "tags": [
             "Klipper",
             "Python"
           ],
           "upstream": "markniu/bdwidth"
-        },
-        {
-          "name": "KlipperPLR",
-          "url": "https://github.com/SukbeomH/KlipperPLR",
-          "summary": "Klipper 정전 복구. G-code 파싱 견고화",
-          "tags": [
-            "Klipper"
-          ],
-          "upstream": "Yumi-Lab/YUMI_PLR"
         },
         {
           "name": "CxChanger",
@@ -99,10 +92,11 @@
         {
           "name": "CrosspointFork",
           "url": "https://github.com/SukbeomH/CrosspointFork",
-          "summary": "Xteink X4 e-paper 리더 한국어 펌웨어. UI 320+ 문자열 번역, 한글 폰트, CJK 줄바꿈, 커뮤니티 포크 기능 통합",
+          "summary": "Xteink X4 e-paper 리더 한국어 펌웨어. 한글 폰트 SD 스트리밍, CJK 줄바꿈, TXT 챕터 자동 감지, 도서별 설정, CMake 호스트 테스트 5종과 릴리스 CI, 업스트림 1.2.0 병합",
           "tags": [
             "C++",
-            "ESP32"
+            "ESP32",
+            "PlatformIO"
           ],
           "upstream": "crosspoint-reader/crosspoint-reader"
         }
