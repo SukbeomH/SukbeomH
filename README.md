@@ -4,7 +4,7 @@
 
 ## 안녕하세요, 홍석범입니다 👋
 
-**SK AX**에서 Kubernetes 위에 AI 플랫폼을 만드는 Cloud · AI Platform Engineer입니다. 심리학에서 시작해 백엔드 → AI → 클라우드 인프라로 영역을 넓혀왔습니다.
+**SK AX**에서 Kubernetes 위에 AI 플랫폼을 만드는 Cloud · AI Platform Engineer입니다. 심리학에서 출발해 백엔드와 AI를 거쳐, 지금은 클라우드 인프라 위에서 AI 플랫폼을 만듭니다.
 
 업무 밖에서는 **AI 코딩 에이전트를 팀처럼 운영하는 방법**을 실험합니다. 세션 라우팅과 SPEC → PLAN → EXECUTE → VERIFY 워크플로우, Obsidian 지식 백본, 구현과 리뷰를 분리한 교차 검증이 도구입니다. 이 방식으로 실운영 자동매매 데몬, 홈랩 운영 도구, 3D 프린터 펌웨어 플러그인을 직접 만들고 운영합니다.
 
