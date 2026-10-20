@@ -40,7 +40,7 @@ async function main() {
 
   if (current === readme) return void console.log("README.md unchanged.");
   writeFileSync(README, readme, "utf8");
-  console.log(`README.md written (${posts.length} posts).`);
+  console.log(`README.md written (${Math.min(posts.length, content.site.blog.maxPosts)} posts).`);
 }
 
 main().catch((err) => {
