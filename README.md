@@ -4,11 +4,11 @@
 
 ## 안녕하세요, 홍석범입니다 👋
 
-**SK AX**에서 Kubernetes 위에 AI 플랫폼을 만드는 Cloud · AI Platform Engineer입니다. 심리학에서 출발해 백엔드와 AI를 거쳐, 지금은 클라우드 인프라 위에서 AI 플랫폼을 만듭니다.
+**SK AX**에서 Kubernetes 기반 AI 플랫폼을 만듭니다. 심리학에서 출발해 백엔드와 AI 개발을 거쳐, Cloud · AI Platform Engineer로 일하고 있습니다.
 
-업무 밖에서는 **AI 코딩 에이전트를 팀처럼 운영하는 방법**을 실험합니다. 세션 라우팅과 SPEC → PLAN → EXECUTE → VERIFY 워크플로우, Obsidian 지식 백본, 구현과 리뷰를 분리한 교차 검증이 도구입니다. 이 방식으로 실운영 자동매매 데몬, 홈랩 운영 도구, 3D 프린터 펌웨어 플러그인을 직접 만들고 운영합니다.
+업무 밖에서는 **AI 코딩 에이전트를 팀처럼 운영하는 방법**을 실험하며, 자동매매 시스템·홈랩 도구·3D 프린터 펌웨어를 직접 만들고 운영합니다.
 
-불확실하면 멈추는 **fail-closed** 설계와, 실행 결과로 증명하는 검증을 원칙으로 삼습니다.
+운영 자동화에서는 실행 조건이나 결과를 확인할 수 없을 때 멈추는 **fail-closed** 설계를 지향합니다. 구현과 리뷰를 분리하고 실행 결과로 검증합니다.
 
 🔭 **Now** · RAG Quality Evaluation & Serving · Kubernetes AI Infra (GPU · Webhook · Helm) · AI Agent Orchestration · Fail-closed Automation
 
@@ -45,28 +45,32 @@
 
 ## 🧪 Projects & Interests
 
-### 🤖 AI · Agents — 에이전트를 팀처럼 굴리기
+### ⭐ Selected Projects — 에이전트 운영부터 AI 평가와 자동화까지
 
-- [**HExoskeleton**](https://github.com/SukbeomH/HExoskeleton) — Claude Code 플러그인 마켓플레이스. front 세션 하나에 말하면 주제별 작업 세션으로 전달·생성·회수·병합하는 **router**와, SPEC → PLAN → EXECUTE → VERIFY 방법론 **hxsk**(Codex·Hermes 호환). 검증 단계 동시 실행, 승인·거부 결정의 front 문맥 반영 <sub>`bash` `python stdlib` `Claude Code`</sub>
-- [**RAG-Bench**](https://github.com/SukbeomH/RAG-Bench) — 한국어 PDF RAG 정량 벤치마크 모노레포. PDF 파서 8종(OmniDocBench NED/TEDS)과 임베딩·검색·리랭커 조합 60가지(RAGAS)를 비교해 프로덕션 조합 선정, K8s 병렬 파싱, 단위 테스트 77개 <sub>`LangGraph` `uv workspace` `RAGAS` `K8s`</sub>
-- [**bok-economic-analyst**](https://github.com/SukbeomH/bok-economic-analyst) — Supervisor/Researcher/Analyst 멀티 에이전트 경제 분석. PDF RAG + 웹 검색 + KOSIS 통계 API로 근거 수집, 출처 추적, 대화 히스토리 주입, plotly 차트 자동 생성 <sub>`LangGraph` `FAISS` `Streamlit`</sub>
-- [**Acta-Ergo-Sum**](https://github.com/SukbeomH/Acta-Ergo-Sum) — GitHub 활동(추출기 13종)을 LLM 친화적 Markdown 지식베이스로 수집하고 레포를 딥 분석하는 CLI · MCP 서버. pytest 83개, PyPI 배포 설정 <sub>`Python` `Typer` `FastMCP`</sub>
-- [**chat-ui**](https://github.com/SukbeomH/chat-ui) <sub>fork of [huggingface/chat-ui](https://github.com/huggingface/chat-ui)</sub> — HuggingChat 기반 채팅 UI 한국어판. 보안 프록시 검증 핸들러, 멀티모달 첨부, 보안 API 로깅, 대화·디버그 CSV export <sub>`SvelteKit` `TypeScript`</sub>
+- [**HExoskeleton**](https://github.com/SukbeomH/HExoskeleton) — AI 코딩 에이전트의 작업 세션을 연결하는 플러그인 모음. **router**는 Claude Code 세션을 라우팅하고, **hxsk**는 SPEC → PLAN → EXECUTE → VERIFY 워크플로우를 제공하며 Codex·Hermes도 지원합니다. <sub>`bash` `python stdlib` `Claude Code`</sub>
+- [**RAG-Bench**](https://github.com/SukbeomH/RAG-Bench) — 한국어 PDF RAG 구성을 비교·평가하는 벤치마크. PDF 파서 8종과 검색 파이프라인 조합 60가지를 비교해 프로덕션 구성 선정에 활용합니다. <sub>`LangGraph` `uv workspace` `RAGAS` `K8s`</sub>
+- [**kakao-cli**](https://github.com/SukbeomH/kakao-cli) — Android 카카오톡을 제어하는 CLI·TUI와 웹 기기 콘솔. DB 읽기 전용 조회와 adb UI 조작을 결합하고, redroid를 Docker Compose로 상시 운영합니다. <sub>`Python` `adb` `redroid` `Docker Compose`</sub>
 
-### 🖨️ 3D Printing · Firmware — 손에 잡히는 하드웨어
+### 🤖 AI · Agents — 분석과 지식 수집 도구
 
-- [**klipperized-LLL-plus-buffer**](https://github.com/SukbeomH/klipperized-LLL-plus-buffer) — Mellow/Fly LLL Plus 버퍼를 Klipper MCU로 구동. extruder_stepper 동기화 + 홀센서 중앙 유지, 극단 구간은 TMC VACTUAL로 복구 <sub>`Klipper` `Python` `STM32`</sub>
-- [**bdwidth**](https://github.com/SukbeomH/bdwidth) <sub>fork of [markniu/bdwidth](https://github.com/markniu/bdwidth)</sub> — 필라멘트 폭·이동 센서 Klipper 포크. USB 프레임 검증 강화, 이상치 필터, 유량 스케일링·모션 상태, 이상치 발생 시 CCD 파형 진단 스냅샷 <sub>`Klipper` `Python`</sub>
-- [**CxChanger**](https://github.com/SukbeomH/CxChanger) <sub>fork of [cx330-TXY/CxChanger](https://github.com/cx330-TXY/CxChanger)</sub> — 저비용 예열식 다중 핫엔드 툴체인저. 한/영 문서·Klipper 설정 번역과 용어 정리 <sub>`Klipper` `OrcaSlicer`</sub>
-- [**CrosspointFork**](https://github.com/SukbeomH/CrosspointFork) <sub>fork of [crosspoint-reader/crosspoint-reader](https://github.com/crosspoint-reader/crosspoint-reader)</sub> — Xteink X4 e-paper 리더 한국어 펌웨어. 한글 폰트 SD 스트리밍, CJK 줄바꿈, TXT 챕터 자동 감지, 도서별 설정, CMake 호스트 테스트 5종과 릴리스 CI, 업스트림 1.2.0 병합 <sub>`C++` `ESP32` `PlatformIO`</sub>
+- [**bok-economic-analyst**](https://github.com/SukbeomH/bok-economic-analyst) — PDF RAG·웹 검색·KOSIS 통계를 결합한 멀티 에이전트 경제 분석 도구. 근거와 출처를 수집하고 분석 결과를 차트로 시각화합니다. <sub>`LangGraph` `FAISS` `Streamlit`</sub>
+- [**Acta-Ergo-Sum**](https://github.com/SukbeomH/Acta-Ergo-Sum) — GitHub 활동과 저장소 구조를 LLM이 활용할 수 있는 Markdown 지식베이스로 정리하는 CLI·MCP 서버. <sub>`Python` `Typer` `FastMCP`</sub>
+- [**chat-ui**](https://github.com/SukbeomH/chat-ui) <sub>fork of [huggingface/chat-ui](https://github.com/huggingface/chat-ui)</sub> — HuggingChat 기반 한국어 채팅 UI. 보안 프록시 검증, 멀티모달 첨부, 대화·디버그 데이터 내보내기를 확장했습니다. <sub>`SvelteKit` `TypeScript`</sub>
+
+### 🖨️ Hardware · Firmware — 손에 잡히는 하드웨어
+
+- [**klipperized-LLL-plus-buffer**](https://github.com/SukbeomH/klipperized-LLL-plus-buffer) — Mellow/Fly LLL Plus 필라멘트 버퍼를 Klipper에서 구동하는 플러그인. 압출기 동기화와 홀센서 피드백으로 버퍼 위치를 제어합니다. <sub>`Klipper` `Python` `STM32`</sub>
+- [**bdwidth**](https://github.com/SukbeomH/bdwidth) <sub>fork of [markniu/bdwidth](https://github.com/markniu/bdwidth)</sub> — 필라멘트 폭·이동 센서의 Klipper 연동 포크. USB 데이터 검증과 이상치 필터링을 강화하고 센서 진단 기능을 추가했습니다. <sub>`Klipper` `Python`</sub>
+- [**CxChanger**](https://github.com/SukbeomH/CxChanger) <sub>fork of [cx330-TXY/CxChanger](https://github.com/cx330-TXY/CxChanger)</sub> — 저비용 예열식 다중 핫엔드 툴체인저 프로젝트. 문서와 Klipper 설정을 번역하고 한·영 용어를 정리했습니다. <sub>`Klipper` `OrcaSlicer`</sub>
+- [**CrosspointFork**](https://github.com/SukbeomH/CrosspointFork) <sub>fork of [crosspoint-reader-ko/crosspoint-reader-ko](https://github.com/crosspoint-reader-ko/crosspoint-reader-ko)</sub> — Xteink X4 전자책 리더의 한국어 펌웨어 포크. 한글 폰트 스트리밍·CJK 줄바꿈·TXT 챕터 감지를 확장하고 커뮤니티 기능을 통합했습니다. 원본은 [CrossPoint Reader](https://github.com/crosspoint-reader/crosspoint-reader)입니다. <sub>`C++` `ESP32` `PlatformIO`</sub>
 
 ### 🔒 Private work — 이름 없이 분야만
 
-- **📈 자동매매 · 퀀트** — 시트 주도 자동매매 데몬(Linux)과 Windows 앱을 실계좌로 운영 — 브로커 변경·결과 불명 시 차단하는 fail-closed 주문 경로, 구현 에이전트와 독립 리뷰 세션 분리, 테스트 248 파일, 태그 릴리스. 별도로 point-in-time 투자 리서치 파이프라인(append-only 리비전 DB, 사전등록 연구, 페이퍼 트레이딩만), 백테스트와 paper가 같은 파이프라인을 쓰는 이벤트 기반 퀀트 프레임워크(테스트 약 1,600개), 공개 데이터 기반 방어형 리밸런싱 검증을 연구
-- **🧠 에이전트 인프라** — Obsidian 볼트를 원본으로 10여 종 에이전트 하네스(Claude Code·Codex·Gemini·Hermes 등)의 지침·스킬·메모리를 렌더링·배포하고 Stop 훅으로 자동 동기화하는 체계, JSON으로 역할·검사를 정의해 격리 Chromium에서 돌리는 브라우저 QA 러너(쓰기 3중 승인·종료코드 규약), 소스 리비전·인용을 결정론적으로 추적하는 증거 저장소(stdlib만, 내구성 잡·리스, MCP 어댑터), 오케스트레이터 + 전문가 리뷰어 + 샌드박스 승인 흐름 PoC
-- **📚 지식 운영** — 제텔카스텐 + KDC 십진분류로 구성한 Obsidian 볼트를 canonical 저장소로, NotebookLM을 출처 기반 합성 계층으로 두는 리서치 운영 모델과 OKF/OWL 관점의 지식베이스 구조화
-- **🏠 홈랩 · 자동화** — Proxmox 홈랩 운영 워크스페이스(PVE API 래퍼·상태 점검·인벤토리·Tailscale 원격 접근·SMB 스토리지·systemd)와 Home Assistant 연동, Android 컨테이너(redroid) 기반 모바일 앱 UI 자동화 CLI(adb·systemd 자동복구·웹 UI, 실기기 e2e 검증)
-- **🎮 기타** — Godot 4 퍼즐 게임 데모(역방향 레벨 생성기·난이도 지표, 헤드리스 테스트 89건, 150레벨 자동 생성·검증), Steam Controller 2 HD 햅틱을 위한 햅틱 변환 계층 리서치(C#/.NET HID), human-in-the-loop 이미지 상품검색 PoC
+- **📈 자동매매 · 퀀트** — 실계좌 자동매매 시스템을 운영하며, 브로커 변경이나 주문 결과 불명 시 실행을 차단합니다. 별도로 시점별 데이터에 기반한 투자 리서치와 백테스트·페이퍼 트레이딩 파이프라인을 연구합니다.
+- **🧠 에이전트 인프라** — 여러 코딩 에이전트의 지침·스킬·메모리를 Obsidian에서 동기화합니다. 브라우저 QA, 출처·리비전 추적, 독립 리뷰와 실행 승인을 연결하는 도구를 만듭니다.
+- **📚 지식 운영** — 제텔카스텐과 KDC 분류를 적용한 Obsidian 볼트를 기준 저장소로 삼고, NotebookLM으로 출처에 기반한 리서치 내용을 종합합니다.
+- **🏠 홈랩 · 자동화** — Proxmox 홈랩의 상태 점검·자원 관리·원격 접근을 자동화하고 Home Assistant를 연동합니다.
+- **🎮 기타** — Godot 퍼즐 게임의 레벨 자동 생성·검증, 컨트롤러 햅틱 변환, 사용자 확인을 거치는 이미지 상품검색을 실험합니다.
 
 📌 **Interests** · AI agent orchestration · RAG evaluation · Fail-closed automation · Homelab (Proxmox) · Klipper · e-paper · Quant research · Knowledge ops (Obsidian)
 
